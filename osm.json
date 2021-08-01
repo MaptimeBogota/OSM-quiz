@@ -9,7 +9,7 @@
       ],
       "correct": {
         "index": 2,
-        "text": "The main page is OpenStreetMap.org; however, pages like osm.org or OpenStreetMap.com redirect to the main page."
+        "text": "The main page is <a target=\"_blank\" href=\"http://OpenStreetMap.org\">OpenStreetMap.org</a>; however, pages like <a target=\"_blank\" href=\"osm.org\">osm.org</a> or <a target=\"_blank\" href=\"OpenStreetMap.com\"OpenStreetMap.com</a> redirect to the main page."
       },
       "number": 1,
       "prompt": "What is the web address of OpenStreetMap?"
@@ -21,7 +21,7 @@
       ],
       "correct": {
         "index": 1,
-        "text": "OSM provides the following map tyles in its main page: Standard, CyclOSM, Cyclism, Transport, OPNVKarte and Humanitarian."
+        "text": "OSM provides the following map styles in its main page: Standard, CyclOSM, Cyclism, Transport, OPNVKarte and Humanitarian."
       },
       "number": 2,
       "prompt": "How many map styles OpenStreetMap provides?"
@@ -35,7 +35,7 @@
       "correct": {
         "index": 1
       },
-      "image": "signup.jpg",
+      "image": "registering-account.png",
       "number": 3,
       "prompt": "What do you need to open an account in OpenStreetMap?"
     },
@@ -60,7 +60,7 @@
       ],
       "correct": {
         "index": 0,
-        "text": "You can check the different elements in these pages: https://learnosm.org/en/beginner/id-editor/ https://wiki.openstreetmap.org/wiki/Elements"
+        "text": "You can check the different elements in these pages: <a target=\"_blank\" href=\"https://learnosm.org/en/beginner/id-editor/>LearnOSM</a> and <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Elements\">OSM Wiki Elements</a>."
       },
       "number": 5,
       "prompt": "What are the different kind of elements can be drawn on the map?"
