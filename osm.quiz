@@ -1,0 +1,49 @@
+// Quiz of basic knowledge of OpenStreetMap.
+//
+// Author: Andres Gomez @angoca
+// Version: 2021-07-31
+
+// Parent URL.
+url: http://angoca.github.io/OSM-quiz/
+
+// Title of the quiz.
+# Do you know the basics of OpenStreetMap.
+
+1) What is the web address of OpenStreetMap?
+  - Map.osm.gov
+  - OSM.com
+  * OpenStreetMap.org
+  - OpenMap.org
+
+  The main page is <a target="_blank" href="http://OpenStreetMap.org">OpenStreetMap.org</a>; however, pages like <a target="_blank" href="osm.org">osm.org</a> or <a target="_blank" href="OpenStreetMap.com"OpenStreetMap.com</a> redirect to the main page.
+
+
+2) How many map styles OpenStreetMap provides?
+  - Just one
+  * Several ones
+
+  OSM provides the following map styles in its main page: Standard, CyclOSM, Cyclism, Transport, OPNVKarte and Humanitarian.
+
+
+3) What do you need to open an account in OpenStreetMap?
+  - Pay the membership before
+  * Provide a username, password and a valid email address
+  - Be registered in Wikipedia
+
+  (image) registering-account.png
+
+
+4) What are the editors to modify OSM?
+  - iD
+  * JOSM, iD, Potlatch, Vespucci
+  - There are not
+
+  OSM can be modified with different editors, some from the computer (JOSM), some from the mobile (Vespucci, StreetComplete), some from browsers (iD, Potlatch, Level0). And there others for different purposes.
+
+
+5) What are the different kind of elements can be drawn on the map?
+  * Node, way, area
+  - Point, line, polygon
+  - Point, way, area
+
+  You can check the different elements in these pages: <a target="_blank" href="https://learnosm.org/en/beginner/id-editor/>LearnOSM</a> and <a target="_blank" href="https://wiki.openstreetmap.org/wiki/Elements">OSM Wiki Elements</a>.
