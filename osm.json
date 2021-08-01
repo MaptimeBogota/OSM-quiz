@@ -1,0 +1,70 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "Map.osm.gov",
+        "OSM.com",
+        "OpenStreetMap.org",
+        "OpenMap.org"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "The main page is OpenStreetMap.org; however, pages like osm.org or OpenStreetMap.com redirect to the main page."
+      },
+      "number": 1,
+      "prompt": "What is the web address of OpenStreetMap?"
+    },
+    {
+      "answers": [
+        "Just one.",
+        "Several ones, with some of them for specific purposes."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "OSM provides the following map tyles in its main page: Standard, CyclOSM, Cyclism, Transport, OPNVKarte and Humanitarian."
+      },
+      "number": 2,
+      "prompt": "How many map styles OpenStreetMap provides?"
+    },
+    {
+      "answers": [
+        "Pay the membership before.",
+        "You just need to provide a username, password and a valid email address.",
+        "Be registered in Wikipedia."
+      ],
+      "correct": {
+        "index": 1
+      },
+      "image": "signup.jpg",
+      "number": 3,
+      "prompt": "What do you need to open an account in OpenStreetMap?"
+    },
+    {
+      "answers": [
+        "Just one, it is called iD.",
+        "Several ones, like JOSM, iD, Potlatch, Vespucci.",
+        "There are not editors available for the public."
+      ],
+      "correct": {
+        "text": "OSM can be modified with different editors, some from the computer (JOSM), some from the mobile (Vespucci, StreetComplete), some from browsers (iD, Potlatch, Level0)."
+      },
+      "number": 4,
+      "prompt": "How many editors exist to modify OSM?"
+    },
+    {
+      "answers": [
+        "Node, way, area (polygon).",
+        "Point, line, polygon.",
+        "Point, way, area."
+      ],
+      "correct": {
+        "index": 0,
+        "text": "You can check the different elements in these pages: https://learnosm.org/en/beginner/id-editor/ https://wiki.openstreetmap.org/wiki/Elements"
+      },
+      "number": 5,
+      "prompt": "What are the different kind of elements can be drawn on the map?"
+    }
+  ],
+  "title": "Do you know the basics of OpenStreetMap.",
+  "url": "http://angoca.github.io/OSM-quiz/"
+}
