@@ -24,13 +24,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="sweet-alert.min.js"></script>
   <script src="quiz.js"></script>
-  <p>This is the list of available quices in English:</p>
-  <ul>
-    <li><a href="osm-basic-en.html">OSM Basic (English)</a></li>
-  </ul>
-  <p>Esta es la lista de quices disponibles en español:</p>
-  <ul>
-    <li><a href="osm-basic-en.html">OSM Básico</a></li>
-  </ul>
+  <script>
+    $(function() {
+      $('#quiz').quiz("osm-basic-en.json");
+    });
+  </script>
 </body>
 </html>
