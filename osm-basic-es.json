@@ -36,7 +36,7 @@
         "index": 1,
         "text": "Parece que ya creaste tu cuenta, \u00a1grandioso!"
       },
-      "image": "registering-account.png",
+      "image": "images/registering-account.png",
       "number": 3,
       "prompt": "\u00bfQu\u00e9 se necesita para abrir una cuenta en OpenStreetMap?"
     },
@@ -67,6 +67,19 @@
       },
       "number": 5,
       "prompt": "\u00bfCu\u00e1les son los diferentes elementos que se pueden dibujar en el mapa?"
+    },
+    {
+      "answers": [
+        "Metadata (Metadatos)",
+        "Tags (Etiquetas)",
+        "Descriptors (Descriptores)"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Los objetos (nodos, v\u00edas, relaciones) pueden ser descritos v\u00eda Tags - Etiquetas. OSM ofrecce una muy rica lista de atributos que pueden ser usados en caracter\u00edsticas del mapa."
+      },
+      "number": 6,
+      "prompt": "\u00bfC\u00f3mo puedes agregar informaci\u00f3n a los nodos, v\u00edas y relaciones?"
     }
   ],
   "title": "Conoces los conceptos b\u00e1sicos de OpenStreetMap.",

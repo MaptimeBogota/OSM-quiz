@@ -51,3 +51,11 @@ url: https://maptimebogota.github.io/OSM-quiz/
   - Point, way, area (Punto, vía, área)
 
   Puedes revisar los diferentes elementos en estas páginas: <a target="_blank" href="https://learnosm.org/en/beginner/id-editor/">LearnOSM</a> y <a target="_blank" href="https://wiki.openstreetmap.org/wiki/Elements">OSM Wiki Elements</a>.
+
+6) ¿Cómo puedes agregar información a los nodos, vías y relaciones?
+
+  - Metadata (Metadatos)
+  * Tags (Etiquetas)
+  - Descriptors (Descriptores)
+
+  Los objetos (nodos, vías, relaciones) pueden ser descritos vía Tags - Etiquetas. OSM ofrecce una muy rica lista de atributos que pueden ser usados en características del mapa.

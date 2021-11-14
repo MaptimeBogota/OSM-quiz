@@ -46,8 +46,16 @@ url: https://maptimebogota.github.io/OSM-quiz/
 
 
 5) What are the different kind of elements can be drawn on the map?
-  * Node, way, area
+  * Node, way, relations
   - Point, line, polygon
   - Point, way, area
 
   You can check the different elements in these pages: <a target="_blank" href="https://learnosm.org/en/beginner/id-editor/>LearnOSM</a> and <a target="_blank" href="https://wiki.openstreetmap.org/wiki/Elements">OSM Wiki Elements</a>.
+
+6) How can you add information to the nodes, ways and relations?
+
+  - Metadata
+  * Tags
+  - Descriptors
+
+  The objects (nodes, ways, relations) can be described via Tags. OSM provides a very rich list of attributes that can be used in map features.

@@ -36,7 +36,7 @@
         "index": 1,
         "text": "It seems that you already have create an account, great!"
       },
-      "image": "registering-account.png",
+      "image": "images/registering-account.png",
       "number": 3,
       "prompt": "What do you need to open an account in OpenStreetMap?"
     },
@@ -57,7 +57,7 @@
     },
     {
       "answers": [
-        "Node, way, area",
+        "Node, way, relations",
         "Point, line, polygon",
         "Point, way, area"
       ],
@@ -67,6 +67,19 @@
       },
       "number": 5,
       "prompt": "What are the different kind of elements can be drawn on the map?"
+    },
+    {
+      "answers": [
+        "Metadata",
+        "Tags",
+        "Descriptors"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "The objects (nodes, ways, relations) can be described via Tags. OSM provides a very rich list of attributes that can be used in map features."
+      },
+      "number": 6,
+      "prompt": "How can you add information to the nodes, ways and relations?"
     }
   ],
   "title": "Do you know the basics of OpenStreetMap.",
