@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "riverway",
+        "streamway",
+        "waterway",
+        "way"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "La <a target=\"_blank\" href=\"http://OpenStreetMap.org\">Gu\u00eda de mapeo</a> indica que se deben mapear con <a href=\"https://wiki.openstreetmap.org/wiki/ES:Key:waterway\">waterway=*</a>."
+      },
+      "number": 1,
+      "prompt": "\u00bfCon qu\u00e9 tipo etiqueta (no el valor) se debe mapear el trayecto de un r\u00edo o quebrada?"
+    },
+    {
+      "answers": [
+        "El r\u00edo es grande, y la quebrada es peque\u00f1a",
+        "Colombia no tiene una definici\u00f3n oficial, por lo tanto la gu\u00eda de mapeo no lo indica",
+        "El stream / quebrada desemboca en un river / r\u00edo, mientra que el river / r\u00edo llega al oc\u00e9ano."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Tristemente Colombia no ofrece una definici\u00f3n clara sobre esto. Hay r\u00edos de peque\u00f1o caudal, y quebrada grandes."
+      },
+      "number": 2,
+      "prompt": "\u00bfCu\u00e1l es la diferencia entre r\u00edo y quebrada al mapear?"
+    },
+    {
+      "answers": [
+        "No, gracias al valor stream de la etiqueta waterway, se sabe que es una quebrada. De manera similar river con r\u00edo.",
+        "Es necesario especificarlo. Inclusive en Espa\u00f1ol, ya que es el idioma oficial de Colombia.",
+        "En OSM, todos se consideran R\u00edos, por lo que no es necesario agregar la palabra r\u00edo."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Es necesario especificar el tipo de cuerpo de agua como parte de la etiqueta name. Como \"R\u00edo Magnalena\" o \"Quebrada La Vieja\". De esta forma se especifica en la documentaci\u00f3n de <a href=\"https://wiki.openstreetmap.org/wiki/ES:Tag:waterway%3Driver#Etiquetas_adicionales\">waterway=*</a>."
+      },
+      "number": 3,
+      "prompt": "Como parte de la etiqueta name, \u00bfse debe incluir el tipo de cuerpo de agua (la palabra R\u00edo o Quebrada comenzando)?"
+    }
+  ],
+  "title": "\u00bfSabes c\u00f3mo mapear r\u00edos y quebradas en Colombia? veamos",
+  "url": "https://maptimebogota.github.io/OSM-quiz/"
+}
