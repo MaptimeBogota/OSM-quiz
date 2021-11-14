@@ -1,15 +1,15 @@
 // Quiz of basic knowledge of OpenStreetMap.
 //
 // Author: Andres Gomez @angoca
-// Version: 2021-07-31
+// Version: 2021-11-13
 
 // Parent URL.
-url: http://angoca.github.io/OSM-quiz/
+url: https://maptimebogota.github.io/OSM-quiz/
 
 // Title of the quiz.
 # Do you know the basics of OpenStreetMap.
 
-1) What is the web address of OpenStreetMap?
+1) What is the web address of OpenStreetMap-OSM?
   - Map.osm.gov
   - OSM.com
   * OpenStreetMap.org
@@ -18,7 +18,7 @@ url: http://angoca.github.io/OSM-quiz/
   The main page is <a target="_blank" href="http://OpenStreetMap.org">OpenStreetMap.org</a>; however, pages like <a target="_blank" href="osm.org">osm.org</a> or <a target="_blank" href="OpenStreetMap.com"OpenStreetMap.com</a> redirect to the main page.
 
 
-2) How many map styles OpenStreetMap provides?
+2) How many map styles OpenStreetMap provides in its main page?
   - Just one
   * Several ones
 
@@ -32,13 +32,17 @@ url: http://angoca.github.io/OSM-quiz/
 
   (image) registering-account.png
 
+  It seems that you already have create an account, great!
+
 
 4) What are the editors to modify OSM?
   - iD
   * JOSM, iD, Potlatch, Vespucci
+  - Googe Maps
+  - QGIS
   - There are not
 
-  OSM can be modified with different editors, some from the computer (JOSM), some from the mobile (Vespucci, StreetComplete), some from browsers (iD, Potlatch, Level0). And there others for different purposes.
+  OSM can be modified with different editors, some from the computer (JOSM), some from the mobile (Vespucci, StreetComplete), some from browsers (iD, Potlatch, Level 0). And there others for different purposes.
 
 
 5) What are the different kind of elements can be drawn on the map?

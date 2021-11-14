@@ -12,7 +12,7 @@
         "text": "The main page is <a target=\"_blank\" href=\"http://OpenStreetMap.org\">OpenStreetMap.org</a>; however, pages like <a target=\"_blank\" href=\"osm.org\">osm.org</a> or <a target=\"_blank\" href=\"OpenStreetMap.com\"OpenStreetMap.com</a> redirect to the main page."
       },
       "number": 1,
-      "prompt": "What is the web address of OpenStreetMap?"
+      "prompt": "What is the web address of OpenStreetMap-OSM?"
     },
     {
       "answers": [
@@ -24,7 +24,7 @@
         "text": "OSM provides the following map styles in its main page: Standard, CyclOSM, Cyclism, Transport, OPNVKarte and Humanitarian."
       },
       "number": 2,
-      "prompt": "How many map styles OpenStreetMap provides?"
+      "prompt": "How many map styles OpenStreetMap provides in its main page?"
     },
     {
       "answers": [
@@ -33,7 +33,8 @@
         "Be registered in Wikipedia"
       ],
       "correct": {
-        "index": 1
+        "index": 1,
+        "text": "It seems that you already have create an account, great!"
       },
       "image": "registering-account.png",
       "number": 3,
@@ -43,11 +44,13 @@
       "answers": [
         "iD",
         "JOSM, iD, Potlatch, Vespucci",
+        "Googe Maps",
+        "QGIS",
         "There are not"
       ],
       "correct": {
         "index": 1,
-        "text": "OSM can be modified with different editors, some from the computer (JOSM), some from the mobile (Vespucci, StreetComplete), some from browsers (iD, Potlatch, Level0). And there others for different purposes."
+        "text": "OSM can be modified with different editors, some from the computer (JOSM), some from the mobile (Vespucci, StreetComplete), some from browsers (iD, Potlatch, Level 0). And there others for different purposes."
       },
       "number": 4,
       "prompt": "What are the editors to modify OSM?"
@@ -67,5 +70,5 @@
     }
   ],
   "title": "Do you know the basics of OpenStreetMap.",
-  "url": "http://angoca.github.io/OSM-quiz/"
+  "url": "https://maptimebogota.github.io/OSM-quiz/"
 }
