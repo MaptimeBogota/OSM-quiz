@@ -16,13 +16,13 @@ In order to modify an existing quiz, you need to:
 
     cd OSM-quiz
 
-* Once in your computer, you modify the file: `osm-basic-en.quiz`.
+* Once in your computer, you modify the file: `osm-basic-en.quiz` under `quices` directory.
 This is the file for the basic quiz about OSM in English.
 You can modify any other quiz, but this guide is made for this file.
 
 * On the command line, you call Python:
 
-    python quiz_questions.py osm-basic-en.quiz
+    python quiz_questions.py quices/osm-basic-en.quiz
 
 `quiz_questions.py` is the Python script to convert your questions to a JSON file that can be parsed as a web page.
 
@@ -67,7 +67,7 @@ For this, you can copy any of the existing HTML for quices, and just replace thi
 
     <script>
       $(function() {
-        $('#quiz').quiz("myOSMquiz.json");
+        $('#quiz').quiz("quices/myOSMquiz.json");
       });
     </script>
 
