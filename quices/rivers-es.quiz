@@ -15,7 +15,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * waterway
   - way
 
-  La <a target="_blank" href="http://OpenStreetMap.org">Guía de mapeo</a> indica que se deben mapear con <a href="https://wiki.openstreetmap.org/wiki/ES:Key:waterway">waterway=*</a>.
+  La <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:Colombia/Guide_for_mapping">Guía de mapeo</a> indica que se deben mapear con <a href="https://wiki.openstreetmap.org/wiki/ES:Key:waterway">waterway=*</a>.
 
 
 2) ¿Cuál es la diferencia entre río y quebrada al mapear?
@@ -27,9 +27,9 @@ url: https://maptimebogota.github.io/OSM-quiz/
   Tristemente Colombia no ofrece una definición clara sobre esto. Hay ríos de pequeño caudal, y quebrada grandes.
 
 
-3) Como parte de la etiqueta name, ¿se debe incluir el tipo de cuerpo de agua (la palabra Río o Quebrada comenzando)?
+3) Como parte de la etiqueta name, ¿se debe incluir el tipo de cuerpo de agua (comenzando con la palabra Río o Quebrada)?
   - No, gracias al valor stream de la etiqueta waterway, se sabe que es una quebrada. De manera similar river con río
-  * Es necesario especificarlo. Inclusive en Español, ya que es el idioma oficial de Colombia
+  * Es necesario especificarlo. Inclusive debe ser en Español, ya que es el idioma oficial de Colombia
   - En OSM, todos se consideran Ríos, por lo que no es necesario agregar la palabra río
 
   Es necesario especificar el tipo de cuerpo de agua como parte de la etiqueta name. Como "Río Magnalena" o "Quebrada La Vieja". De esta forma se especifica en la documentación de <a href="https://wiki.openstreetmap.org/wiki/ES:Tag:waterway%3Driver#Etiquetas_adicionales">waterway=*</a>.
