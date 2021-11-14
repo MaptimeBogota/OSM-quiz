@@ -1,0 +1,74 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "Map.osm.gov",
+        "OSM.com",
+        "OpenStreetMap.org",
+        "OpenMap.org"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "La p\u00e1gina es <a target=\"_blank\" href=\"http://OpenStreetMap.org\">OpenStreetMap.org</a>; sin embargo, p\u00e1ginas como <a target=\"_blank\" href=\"osm.org\">osm.org</a> o <a target=\"_blank\" href=\"OpenStreetMap.com\"OpenStreetMap.com</a> redirigen a la p\u00e1gina principal."
+      },
+      "number": 1,
+      "prompt": "\u00bfCu\u00e1l es la p\u00e1gina web de OpenStreetMap-OSM?"
+    },
+    {
+      "answers": [
+        "Solo uno",
+        "Varios"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "OSM ofrce los siguientes estilos de mapa en su p\u00e1gina principal: Standard, CyclOSM, Cyclism, Transport, OPNVKarte y Humanitarian."
+      },
+      "number": 2,
+      "prompt": "\u00bfCu\u00e1ntos estilos de mapa ofrece OpenStreetMap en su p\u00e1gina principal?"
+    },
+    {
+      "answers": [
+        "Pagar la membres\u00eda previamente",
+        "Proveer un nombre de usuario, contrase\u00f1a y una direcci\u00f3n de correo v\u00e1lida",
+        "Estar registrado en Wikipedia"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Parece que ya creaste tu cuenta, \u00a1grandioso!"
+      },
+      "image": "registering-account.png",
+      "number": 3,
+      "prompt": "\u00bfQu\u00e9 se necesita para abrir una cuenta en OpenStreetMap?"
+    },
+    {
+      "answers": [
+        "iD",
+        "JOSM, iD, Potlatch, Vespucci",
+        "Googe Maps",
+        "QGIS",
+        "No hay"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "OSM puede ser modificado con diferentes editores, algunos desde el computador (JOSM), algunos desde dispositivo m\u00f3vil (Vespucci, StreetComplete), algunos desde el navegador (iD, Potlatch, Level 0). Y hay otros con diferentes prop\u00f3sitos."
+      },
+      "number": 4,
+      "prompt": "\u00bfCu\u00e1les son los editores para modificar OSM?"
+    },
+    {
+      "answers": [
+        "Node, way, relation (Nodo, v\u00eda, relaci\u00f3n)",
+        "Point, line, polygon (Punto, l\u00ednea, pol\u00edgono)",
+        "Point, way, area (Punto, v\u00eda, \u00e1rea)"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "Puedes revisar los diferentes elementos en estas p\u00e1ginas: <a target=\"_blank\" href=\"https://learnosm.org/en/beginner/id-editor/\">LearnOSM</a> y <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Elements\">OSM Wiki Elements</a>."
+      },
+      "number": 5,
+      "prompt": "\u00bfCu\u00e1les son los diferentes elementos que se pueden dibujar en el mapa?"
+    }
+  ],
+  "title": "Conoces los conceptos b\u00e1sicos de OpenStreetMap.",
+  "url": "https://maptimebogota.github.io/OSM-quiz/"
+}

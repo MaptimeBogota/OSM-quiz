@@ -1,0 +1,53 @@
+// Quiz of basic knowledge of OpenStreetMap in Spanish.
+//
+// Author: Andres Gomez @angoca
+// Version: 2021-11-13
+
+// Parent URL.
+url: https://maptimebogota.github.io/OSM-quiz/
+
+// Title of the quiz.
+# Conoces los conceptos básicos de OpenStreetMap.
+
+1) ¿Cuál es la página web de OpenStreetMap-OSM?
+  - Map.osm.gov
+  - OSM.com
+  * OpenStreetMap.org
+  - OpenMap.org
+
+  La página es <a target="_blank" href="http://OpenStreetMap.org">OpenStreetMap.org</a>; sin embargo, páginas como <a target="_blank" href="osm.org">osm.org</a> o <a target="_blank" href="OpenStreetMap.com"OpenStreetMap.com</a> redirigen a la página principal.
+
+
+2) ¿Cuántos estilos de mapa ofrece OpenStreetMap en su página principal?
+  - Solo uno
+  * Varios
+
+  OSM ofrce los siguientes estilos de mapa en su página principal: Standard, CyclOSM, Cyclism, Transport, OPNVKarte y Humanitarian.
+
+
+3) ¿Qué se necesita para abrir una cuenta en OpenStreetMap?
+  - Pagar la membresía previamente
+  * Proveer un nombre de usuario, contraseña y una dirección de correo válida
+  - Estar registrado en Wikipedia
+
+  (image) registering-account.png
+
+  Parece que ya creaste tu cuenta, ¡grandioso!
+
+
+4) ¿Cuáles son los editores para modificar OSM?
+  - iD
+  * JOSM, iD, Potlatch, Vespucci
+  - Googe Maps
+  - QGIS
+  - No hay
+
+  OSM puede ser modificado con diferentes editores, algunos desde el computador (JOSM), algunos desde dispositivo móvil (Vespucci, StreetComplete), algunos desde el navegador (iD, Potlatch, Level 0). Y hay otros con diferentes propósitos.
+
+
+5) ¿Cuáles son los diferentes elementos que se pueden dibujar en el mapa?
+  * Node, way, relation (Nodo, vía, relación)
+  - Point, line, polygon (Punto, línea, polígono)
+  - Point, way, area (Punto, vía, área)
+
+  Puedes revisar los diferentes elementos en estas páginas: <a target="_blank" href="https://learnosm.org/en/beginner/id-editor/">LearnOSM</a> y <a target="_blank" href="https://wiki.openstreetmap.org/wiki/Elements">OSM Wiki Elements</a>.
