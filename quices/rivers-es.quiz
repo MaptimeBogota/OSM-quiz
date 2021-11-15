@@ -15,7 +15,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * waterway
   - way
 
-  La <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:Colombia/Guide_for_mapping">Guía de mapeo</a> indica que se deben mapear con <a href="https://wiki.openstreetmap.org/wiki/ES:Key:waterway">waterway=*</a>.
+  La <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:Colombia/Guide_for_mapping">Guía de mapeo</a> indica que se deben mapear con <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:Key:waterway">waterway=*</a>.
 
 
 2) ¿Cuál es la diferencia entre río y quebrada al mapear?
@@ -32,7 +32,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Es necesario especificarlo. Inclusive debe ser en Español, ya que es el idioma oficial de Colombia
   - En OSM, todos se consideran Ríos, por lo que no es necesario agregar la palabra río
 
-  Es necesario especificar el tipo de cuerpo de agua como parte de la etiqueta name. Como "Río Magnalena" o "Quebrada La Vieja". De esta forma se especifica en la documentación de <a href="https://wiki.openstreetmap.org/wiki/ES:Tag:waterway%3Driver#Etiquetas_adicionales">waterway=*</a>.
+  Es necesario especificar el tipo de cuerpo de agua como parte de la etiqueta name. Como "Río Magnalena" o "Quebrada La Vieja". De esta forma se especifica en la documentación de <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:Tag:waterway%3Driver#Etiquetas_adicionales">waterway=*</a>.
 
 
 4) Los trayectos de los ríos, ¿pueden compartir propiedades con límites administrativos? Por ejemplo, el Río Orinoco es a la vez la frontera con Venezuela.
@@ -55,3 +55,27 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * No
 
   En OSM nunca se deben usar abreviaciones, sino las palabras completas. Otras personas pueden no entender estas abreviaciones.
+
+7) Si es necesario alinear el cauce de un río o quebrada, ¿cuál es la forma de hacerlo más rápido?
+
+  - Borrarlo todo y volver a dibujarlo
+  * En JOSM modo experto, utilizar la opción w
+  - Mover manualmente los nodos, y crear intermedios
+
+  Lo mejor es utilizar JOSM en modo experto, y activar la opción <a target="_blank" href="https://josm.openstreetmap.de/wiki/Help/Action/ImproveWayAccuracy">"Mejorar la precisión de los ways"</a> con la tecla w.
+
+8) Si quieres mapear quebradas cuyo trayecto es dentro de la selva, ¿qué puedes hacer?
+
+  - Nada, ya que no se ve desde la imagen satelital
+  * Usar el geoservicio del IGAC
+  - Verificar otros mapas como Google Maps
+
+  Para mapear quebradas entre la selva, se puede usar la capa de Drenajes sencillos de los <a target="_blank" href="https://geoportal.igac.gov.co/contenido/geoservicios">geoservicios del IGAC</a>. También lo puedes usar para identificar nombres de ríos o quebradas que no tienen nombres en OSM.
+
+9) ¿En qué consiste el proyecto de modernización de ríos?
+
+  - Mejorar el curso de los ríos
+  * Cabiar waterway=riverbank
+  - Corregir los nombres de los ríos
+
+  Hay un <a target="_blank" href="https://wiki.openstreetmap.org/wiki/WikiProject_Waterways/River_modernization">proyecto mundial de modernización de ríos</a> que consiste en cambiar de waterway=riverbank por natural=water + water=river.

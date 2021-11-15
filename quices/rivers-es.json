@@ -9,7 +9,7 @@
       ],
       "correct": {
         "index": 2,
-        "text": "La <a target=\"_blank\" href=\"http://OpenStreetMap.org\">Gu\u00eda de mapeo</a> indica que se deben mapear con <a href=\"https://wiki.openstreetmap.org/wiki/ES:Key:waterway\">waterway=*</a>."
+        "text": "La <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Colombia/Guide_for_mapping\">Gu\u00eda de mapeo</a> indica que se deben mapear con <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Key:waterway\">waterway=*</a>."
       },
       "number": 1,
       "prompt": "\u00bfCon qu\u00e9 tipo etiqueta (no el valor) se debe mapear el trayecto de un r\u00edo o quebrada?"
@@ -18,7 +18,7 @@
       "answers": [
         "El r\u00edo es grande, y la quebrada es peque\u00f1a",
         "Colombia no tiene una definici\u00f3n oficial, por lo tanto la gu\u00eda de mapeo no lo indica",
-        "El stream / quebrada desemboca en un river / r\u00edo, mientra que el river / r\u00edo llega al oc\u00e9ano."
+        "El stream / quebrada desemboca en un river / r\u00edo, mientra que el river / r\u00edo llega al oc\u00e9ano"
       ],
       "correct": {
         "index": 1,
@@ -29,16 +29,67 @@
     },
     {
       "answers": [
-        "No, gracias al valor stream de la etiqueta waterway, se sabe que es una quebrada. De manera similar river con r\u00edo.",
-        "Es necesario especificarlo. Inclusive en Espa\u00f1ol, ya que es el idioma oficial de Colombia.",
-        "En OSM, todos se consideran R\u00edos, por lo que no es necesario agregar la palabra r\u00edo."
+        "No, gracias al valor stream de la etiqueta waterway, se sabe que es una quebrada. De manera similar river con r\u00edo",
+        "Es necesario especificarlo. Inclusive debe ser en Espa\u00f1ol, ya que es el idioma oficial de Colombia",
+        "En OSM, todos se consideran R\u00edos, por lo que no es necesario agregar la palabra r\u00edo"
       ],
       "correct": {
         "index": 1,
-        "text": "Es necesario especificar el tipo de cuerpo de agua como parte de la etiqueta name. Como \"R\u00edo Magnalena\" o \"Quebrada La Vieja\". De esta forma se especifica en la documentaci\u00f3n de <a href=\"https://wiki.openstreetmap.org/wiki/ES:Tag:waterway%3Driver#Etiquetas_adicionales\">waterway=*</a>."
+        "text": "Es necesario especificar el tipo de cuerpo de agua como parte de la etiqueta name. Como \"R\u00edo Magnalena\" o \"Quebrada La Vieja\". De esta forma se especifica en la documentaci\u00f3n de <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Tag:waterway%3Driver#Etiquetas_adicionales\">waterway=*</a>."
       },
       "number": 3,
-      "prompt": "Como parte de la etiqueta name, \u00bfse debe incluir el tipo de cuerpo de agua (la palabra R\u00edo o Quebrada comenzando)?"
+      "prompt": "Como parte de la etiqueta name, \u00bfse debe incluir el tipo de cuerpo de agua (comenzando con la palabra R\u00edo o Quebrada)?"
+    },
+    {
+      "answers": [
+        "Si",
+        "No"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "En OSM nunca se deben usar abreviaciones, sino las palabras completas. Otras personas pueden no entender estas abreviaciones."
+      },
+      "number": 6,
+      "prompt": "Si estoy mapeando muchas quebrada, \u00bfpuedo usar una abreviaci\u00f3n a la palabra como \"Qbda.\" para agilizar el mapeo?"
+    },
+    {
+      "answers": [
+        "Borrarlo todo y volver a dibujarlo",
+        "En JOSM modo experto, utilizar la opci\u00f3n w",
+        "Mover manualmente los nodos, y crear intermedios"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Lo mejor es utilizar JOSM en modo experto, y activar la opci\u00f3n <a target=\"_blank\" href=\"https://josm.openstreetmap.de/wiki/Help/Action/ImproveWayAccuracy\">\"Mejorar la precisi\u00f3n de los ways\"</a> con la tecla w."
+      },
+      "number": 7,
+      "prompt": "Si es necesario alinear el cauce de un r\u00edo o quebrada, \u00bfcu\u00e1l es la forma de hacerlo m\u00e1s r\u00e1pido?"
+    },
+    {
+      "answers": [
+        "Nada, ya que no se ve desde la imagen satelital",
+        "Usar el geoservicio del IGAC",
+        "Verificar otros mapas como Google Maps"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Para mapear quebradas entre la selva, se puede usar la capa de Drenajes sencillos de los <a target=\"_blank\" href=\"https://geoportal.igac.gov.co/contenido/geoservicios\">geoservicios del IGAC</a>. Tambi\u00e9n lo puedes usar para identificar nombres de r\u00edos o quebradas que no tienen nombres en OSM."
+      },
+      "number": 8,
+      "prompt": "Si quieres mapear quebradas cuyo trayecto es dentro de la selva, \u00bfqu\u00e9 puedes hacer?"
+    },
+    {
+      "answers": [
+        "Mejorar el curso de los r\u00edos",
+        "Cabiar waterway=riverbank",
+        "Corregir los nombres de los r\u00edos"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Hay un <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/WikiProject_Waterways/River_modernization\">proyecto mundial de modernizaci\u00f3n de r\u00edos</a> que consiste en cambiar de waterway=riverbank por natural=water + water=river."
+      },
+      "number": 9,
+      "prompt": "\u00bfEn qu\u00e9 consiste el proyecto de modernizaci\u00f3n de r\u00edos?"
     }
   ],
   "title": "\u00bfSabes c\u00f3mo mapear r\u00edos y quebradas en Colombia? veamos",
