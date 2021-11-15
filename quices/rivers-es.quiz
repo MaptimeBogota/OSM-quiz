@@ -10,6 +10,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
 # ¿Sabes cómo mapear ríos y quebradas en Colombia? veamos
 
 1) ¿Con qué tipo etiqueta (no el valor) se debe mapear el trayecto de un río o quebrada?
+
   - riverway
   - streamway
   * waterway
@@ -19,20 +20,21 @@ url: https://maptimebogota.github.io/OSM-quiz/
 
 
 2) ¿Cuál es la diferencia entre río y quebrada al mapear?
+
   - El río es grande, y la quebrada es pequeña
   * Colombia no tiene una definición oficial, por lo tanto la guía de mapeo no lo indica
   - El stream / quebrada desemboca en un river / río, mientra que el river / río llega al océano
 
+  Tristemente Colombia no ofrece una definición clara sobre esto. Hay ríos de pequeño caudal, y quebradas grandes.
 
-  Tristemente Colombia no ofrece una definición clara sobre esto. Hay ríos de pequeño caudal, y quebrada grandes.
 
+3) En una quebrada, como parte de la etiqueta name, ¿se debe incluir el tipo de cuerpo de agua - Quebrada?
 
-3) Como parte de la etiqueta name, ¿se debe incluir el tipo de cuerpo de agua (comenzando con la palabra Río o Quebrada)?
-  - No, gracias al valor stream de la etiqueta waterway, se sabe que es una quebrada. De manera similar river con río
+  - No, gracias al valor stream de la etiqueta waterway, se sabe que es una quebrada
   * Es necesario especificarlo. Inclusive debe ser en Español, ya que es el idioma oficial de Colombia
   - En OSM, todos se consideran Ríos, por lo que no es necesario agregar la palabra río
 
-  Es necesario especificar el tipo de cuerpo de agua como parte de la etiqueta name. Como "Río Magnalena" o "Quebrada La Vieja". De esta forma se especifica en la documentación de <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:Tag:waterway%3Driver#Etiquetas_adicionales">waterway=*</a>.
+  Es necesario especificar el tipo de cuerpo de agua como parte de la etiqueta name. Como "Río Magnalena" o "Quebrada La Vieja". Es de esta forma como está especificado en la documentación de <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:Tag:waterway%3Driver#Etiquetas_adicionales">waterway=*</a>. Inclusive debe ser en el idioma oficial del país.
 
 
 4) Los trayectos de los ríos, ¿pueden compartir propiedades con límites administrativos? Por ejemplo, el Río Orinoco es a la vez la frontera con Venezuela.
@@ -40,7 +42,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   - Si, hay que reducir la cantidad de nodos
   * No, los límites adminsitrativos no deben compartir nodos con el trayecto de un río o quebrada
 
-  No se deben compartir, ya que si el río / quebrada cambia de curso, la frontera o límite administrativo no cambia.
+  No se deben compartir, ya que si el río / quebrada cambia de curso, la frontera o límite administrativo no cambiaría, y no es así.
 
 5) Con respecto a la tilde en la palabra río:
 
@@ -49,7 +51,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
 
   En OSM se debe preservar la ortografía, incluyendo tildes. OSM soporta los caracteres de todos los idiomas.
 
-6) Si estoy mapeando muchas quebrada, ¿puedo usar una abreviación a la palabra como "Qbda." para agilizar el mapeo?
+6) Si estoy mapeando muchas quebradas, ¿puedo usar una abreviación a la palabra como "Qbda." para agilizar el mapeo?
 
   - Si
   * No
@@ -60,7 +62,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
 
   - Borrarlo todo y volver a dibujarlo
   * En JOSM modo experto, utilizar la opción w
-  - Mover manualmente los nodos, y crear intermedios
+  - Mover manualmente los nodos, y crear varios nodos intermedios
 
   Lo mejor es utilizar JOSM en modo experto, y activar la opción <a target="_blank" href="https://josm.openstreetmap.de/wiki/Help/Action/ImproveWayAccuracy">"Mejorar la precisión de los ways"</a> con la tecla w.
 
@@ -70,7 +72,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Usar el geoservicio del IGAC
   - Verificar otros mapas como Google Maps
 
-  Para mapear quebradas entre la selva, se puede usar la capa de Drenajes sencillos de los <a target="_blank" href="https://geoportal.igac.gov.co/contenido/geoservicios">geoservicios del IGAC</a>. También lo puedes usar para identificar nombres de ríos o quebradas que no tienen nombres en OSM.
+  Para mapear quebradas entre la selva, se puede usar la capa de "drenajes sencillos" de los <a target="_blank" href="https://geoportal.igac.gov.co/contenido/geoservicios">geoservicios del IGAC</a>. También lo puedes usar para identificar nombres de ríos o quebradas que no estén en OSM.
 
 9) ¿En qué consiste el proyecto de modernización de ríos?
 
