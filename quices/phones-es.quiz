@@ -1,0 +1,60 @@
+// Quiz sobre conocimiento de mapeos de teléfonos Colombia.
+//
+// Author: Andres Gomez @angoca
+// Version: 2021-11-15
+
+// Parent URL.
+url: https://maptimebogota.github.io/OSM-quiz/
+
+// Title of the quiz.
+# Los números de teléfonos han cambiado en Colombia ¿y tu si sabes cómo reflejarlo en el mapa?
+
+1) ¿Los números de teléfono deben contener el código internacional?
+
+  - No, el mapa solo es información local
+  * Si
+
+  En OSM, los números de teléfono se deben marcar desde el código internacional.
+
+2) ¿Cuál es el código internacional para Colombia?
+
+  - 00
+  * 57
+  - 13
+
+  El código internacional asignado a Colombia es 57.
+
+3) Los códigos de área, ¿cuántos dígitos tienen?
+
+  - 3 para dispositivos móviles, y 1 para áreas geográficas.
+  * 3 dígitos
+  - 10 dígitos
+
+  Con la nueva estructura numérica, todos los códigos de área tienen 3 dígitos. Tanto los operadores móviles, como las áreas geográficas, y también los números de servicios telefónicos.
+
+4) Un número de teléfono del suscriptor, ¿cuántos dígitos tiene?
+
+  - Es variable, depende del tipo de teléfono
+  * Todos los números de suscriptor en Colombia ahora tienen 7 dígitos
+  - 10 dígitos
+
+  Con la nueva forma de marcar, todos los números telefónicos tienen 10 dígitos: 3 de código y 7 de suscritor.
+
+5) ¿Cuál de las siguientes notaciones es válida para un número celular?
+
+  * +57 316 6214030
+  - 0057 316 6214030
+  - 57 316 621 40 30
+  - +57 (316) 621 4032
+
+  La nueva notación de números telefónicos tiene 3 partes separados por espacio. El código internacional además lo precede el signo +.
+
+6) ¿Cuál de estas notaciones es correcta para un número telefónico en Bogotá?
+
+  - 0057 601 2315049
+  - +57 (601) 231 5049
+  * +57 601 2315049
+  - +576012315049
+  - +57 1 2315049
+
+  La nueva notación de números telefónicos tiene 3 partes separados por espacio. El código internacional además lo precede el signo +.

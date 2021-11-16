@@ -1,0 +1,86 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "No, el mapa solo es informaci\u00f3n local",
+        "Si"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "En OSM, los n\u00fameros de tel\u00e9fono se deben marcar desde el c\u00f3digo internacional."
+      },
+      "number": 1,
+      "prompt": "\u00bfLos n\u00fameros de tel\u00e9fono deben contener el c\u00f3digo internacional?"
+    },
+    {
+      "answers": [
+        "00",
+        "57",
+        "13"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "El c\u00f3digo internacional asignado a Colombia es 57."
+      },
+      "number": 2,
+      "prompt": "\u00bfCu\u00e1l es el c\u00f3digo internacional para Colombia?"
+    },
+    {
+      "answers": [
+        "3 para dispositivos m\u00f3viles, y 1 para \u00e1reas geogr\u00e1ficas.",
+        "3 d\u00edgitos",
+        "10 d\u00edgitos"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Con la nueva estructura num\u00e9rica, todos los c\u00f3digos de \u00e1rea tienen 3 d\u00edgitos. Tanto los operadores m\u00f3viles, como las \u00e1reas geogr\u00e1ficas, y tambi\u00e9n los n\u00fameros de servicios telef\u00f3nicos."
+      },
+      "number": 3,
+      "prompt": "Los c\u00f3digos de \u00e1rea, \u00bfcu\u00e1ntos d\u00edgitos tienen?"
+    },
+    {
+      "answers": [
+        "Es variable, depende del tipo de tel\u00e9fono",
+        "Todos los n\u00fameros de suscriptor en Colombia ahora tienen 7 d\u00edgitos",
+        "10 d\u00edgitos"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Con la nueva forma de marcar, todos los n\u00fameros telef\u00f3nicos tienen 10 d\u00edgitos: 3 de c\u00f3digo y 7 de suscritor."
+      },
+      "number": 4,
+      "prompt": "Un n\u00famero de tel\u00e9fono del suscriptor, \u00bfcu\u00e1ntos d\u00edgitos tiene?"
+    },
+    {
+      "answers": [
+        "+57 316 6214030",
+        "0057 316 6214030",
+        "57 316 621 40 30",
+        "+57 (316) 621 4032"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "La nueva notaci\u00f3n de n\u00fameros telef\u00f3nicos tiene 3 partes separados por espacio. El c\u00f3digo internacional adem\u00e1s lo precede el signo +."
+      },
+      "number": 5,
+      "prompt": "\u00bfCu\u00e1l de las siguientes notaciones es v\u00e1lida para un n\u00famero celular?"
+    },
+    {
+      "answers": [
+        "0057 601 2315049",
+        "+57 (601) 231 5049",
+        "+57 601 2315049",
+        "+576012315049",
+        "+57 1 2315049"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "La nueva notaci\u00f3n de n\u00fameros telef\u00f3nicos tiene 3 partes separados por espacio. El c\u00f3digo internacional adem\u00e1s lo precede el signo +."
+      },
+      "number": 6,
+      "prompt": "\u00bfCu\u00e1l de estas notaciones es correcta para un n\u00famero telef\u00f3nico en Bogot\u00e1?"
+    }
+  ],
+  "title": "Los n\u00fameros de tel\u00e9fonos han cambiado en Colombia \u00bfy tu si sabes c\u00f3mo reflejarlo en el mapa?",
+  "url": "https://maptimebogota.github.io/OSM-quiz/"
+}
