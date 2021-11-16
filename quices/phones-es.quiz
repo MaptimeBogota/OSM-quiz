@@ -38,9 +38,9 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Todos los números de suscriptor en Colombia ahora tienen 7 dígitos
   - 10 dígitos
 
-  Con la nueva forma de marcar, todos los números telefónicos tienen 10 dígitos: 3 de código y 7 de suscritor.
+  Con la nueva forma de marcar, todos los números telefónicos tienen 10 dígitos: 3 de código de área y 7 de suscritor.
 
-5) ¿Cuál de las siguientes notaciones es válida para un número celular?
+5) OSM sigue una sintaxis específica de números de teléfonos, ¿cuál de las siguientes notaciones es válida para un número celular?
 
   * +57 316 6214030
   - 0057 316 6214030
@@ -56,5 +56,6 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * +57 601 2315049
   - +576012315049
   - +57 1 2315049
+  - 031 2315049
 
   La nueva notación de números telefónicos tiene 3 partes separados por espacio. El código internacional además lo precede el signo +.

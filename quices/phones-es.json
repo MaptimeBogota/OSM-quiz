@@ -46,7 +46,7 @@
       ],
       "correct": {
         "index": 1,
-        "text": "Con la nueva forma de marcar, todos los n\u00fameros telef\u00f3nicos tienen 10 d\u00edgitos: 3 de c\u00f3digo y 7 de suscritor."
+        "text": "Con la nueva forma de marcar, todos los n\u00fameros telef\u00f3nicos tienen 10 d\u00edgitos: 3 de c\u00f3digo de \u00e1rea y 7 de suscritor."
       },
       "number": 4,
       "prompt": "Un n\u00famero de tel\u00e9fono del suscriptor, \u00bfcu\u00e1ntos d\u00edgitos tiene?"
@@ -63,7 +63,7 @@
         "text": "La nueva notaci\u00f3n de n\u00fameros telef\u00f3nicos tiene 3 partes separados por espacio. El c\u00f3digo internacional adem\u00e1s lo precede el signo +."
       },
       "number": 5,
-      "prompt": "\u00bfCu\u00e1l de las siguientes notaciones es v\u00e1lida para un n\u00famero celular?"
+      "prompt": "OSM sigue una sintaxis espec\u00edfica de n\u00fameros de tel\u00e9fonos, \u00bfcu\u00e1l de las siguientes notaciones es v\u00e1lida para un n\u00famero celular?"
     },
     {
       "answers": [
@@ -71,7 +71,8 @@
         "+57 (601) 231 5049",
         "+57 601 2315049",
         "+576012315049",
-        "+57 1 2315049"
+        "+57 1 2315049",
+        "031 2315049"
       ],
       "correct": {
         "index": 2,
