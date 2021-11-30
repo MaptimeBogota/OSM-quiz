@@ -91,7 +91,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
 
   El campo "name" contiene "Código postal XXXXXX" donde XXXXXX es el código postal de 6 dígitos. "postal_code" tan solo contiene "XXXXXX"
 
-12) ¿Cómo se llena el campo addr:postcode de una dirección?
+12) ¿Cómo se llena el campo "addr:postcode" de una dirección?
 
   * Tan solo se escribe el número, XXXXXX
   - Se escriben las palabra "Código postal XXXXXX", donde XXXXXX es el número de código postal

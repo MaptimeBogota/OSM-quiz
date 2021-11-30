@@ -147,7 +147,7 @@
         "text": "A diferencia del campo \"name\" en las \u00e1reas que definen el c\u00f3digo postal (\"boundary=postal_code\"), en una direcci\u00f3n tan solo se pone el n\u00famero de c\u00f3gido postal (igual que en el campo \"postal_code\" de las relaciones)."
       },
       "number": 12,
-      "prompt": "\u00bfC\u00f3mo se llena el campo addr:postcode de una direcci\u00f3n?"
+      "prompt": "\u00bfC\u00f3mo se llena el campo \"addr:postcode\" de una direcci\u00f3n?"
     }
   ],
   "title": "Los c\u00f3digos postales son \"recientes\" en Colombia, \u00bfya sabes c\u00f3mo se mapean?",
