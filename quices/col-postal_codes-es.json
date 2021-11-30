@@ -7,10 +7,10 @@
       ],
       "correct": {
         "index": 0,
-        "text": "Los c\u00f3digos postales se pueden poner como parte de los detalles de una direcci\u00f3n (address): <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Key:addr:postcode\">addr:postcode=*</a>."
+        "text": "Los c\u00f3digos postales se pueden poner como parte de los detalles de una direcci\u00f3n (address): \"<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Key:addr:postcode\">addr:postcode=*</a>\"."
       },
       "number": 1,
-      "prompt": "\u00bf Se puede poner un c\u00f3digo postal en el feature addr:postcode?"
+      "prompt": "\u00bf Se puede poner un c\u00f3digo postal en el feature \"addr:postcode\"?"
     },
     {
       "answers": [
@@ -19,7 +19,7 @@
       ],
       "correct": {
         "index": 0,
-        "text": "El \u00e1rea en la cual corresponde un c\u00f3digo postal espec\u00edfico, se puede definir bajo una relaci\u00f3n <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dpostal_code\">boundary=postal_code</a>."
+        "text": "El \u00e1rea en la cual corresponde un c\u00f3digo postal espec\u00edfico, se puede definir bajo una relaci\u00f3n \"<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dpostal_code\">boundary=postal_code</a>\"."
       },
       "number": 2,
       "prompt": "\u00bfSe puede definir un c\u00f3digo postal como un \u00e1rea?"
@@ -31,20 +31,20 @@
       ],
       "correct": {
         "index": 1,
-        "text": "Los c\u00f3digos postales solo se pueden definir en <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Key:addr:postcode\">addr:postcode=*</a> y <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dpostal_code\">boundary=postal_code</a>. Recuerda, que son dos palabras diferentes que hacen referencia al mismo concepto: postcode y postal_code. Difiere es el tipo de feature donde los uses."
+        "text": "Los c\u00f3digos postales solo se pueden definir en \"<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Key:addr:postcode\">addr:postcode=*</a>\" y \"<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dpostal_code\">boundary=postal_code</a>\". Recuerda, que son dos palabras diferentes que hacen referencia al mismo concepto: \"postcode\" y \"postal_code\". Difiere en el tipo de feature donde los uses."
       },
       "number": 3,
-      "prompt": "\u00bfSe pueden definir c\u00f3digos postales en otras etiqueta (a parte de addr:postcode y boundary=postal_code)?"
+      "prompt": "\u00bfSe pueden definir c\u00f3digos postales en otras etiqueta (a parte de \"addr:postcode\" y \"boundary=postal_code\")?"
     },
     {
       "answers": [
-        "Dibujar una nueva \u00e1rea, con postal_code=yes",
-        "Por medio de una relaci\u00f3n de tipo boundary=administrative",
-        "Dibujar varios ways, y ponerles postal_code=XXXXXX, donde XXXXXX es el n\u00famero de c\u00f3digo postal"
+        "Dibujar una nueva \u00e1rea, con \"postal_code=yes\"",
+        "Por medio de una relaci\u00f3n de tipo \"boundary=administrative\"",
+        "Dibujar varios ways, y ponerles \"postal_code=XXXXXX\", donde XXXXXX es el n\u00famero de c\u00f3digo postal"
       ],
       "correct": {
         "index": 1,
-        "text": "Para definir el \u00e1rea que cubre un c\u00f3digos postal se crea una relaci\u00f3n de tipo <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Relation:boundarye\">type=boundary</a>, y cuyos segmentos definen el \u00e1rea del c\u00f3digo postal. Los segmentos pueden ser boundary=administrative o boundary=postal_code"
+        "text": "Para definir el \u00e1rea que cubre un c\u00f3digos postal se crea una relaci\u00f3n de tipo \"<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Relation:boundarye\">type=boundary</a>\", y cuyos segmentos definen el \u00e1rea del c\u00f3digo postal. Los segmentos pueden ser \"boundary=administrative\" o \"boundary=postal_code\"."
       },
       "number": 4,
       "prompt": "Para definir el \u00e1rea en el que un c\u00f3digo postal aplica, \u00bfqu\u00e9 elemento se usa de OSM?"
@@ -52,14 +52,14 @@
     {
       "answers": [
         "Extender el boundary m\u00e1s cercano por donde pase el c\u00f3digo postal",
-        "Adicionar un nuevo segmento boudary=postal_code que una dos segmentos boundary=administrative"
+        "Adicionar un nuevo segmento \"boudary=postal_code\" que una dos segmentos \"boundary=administrative\""
       ],
       "correct": {
         "index": 1,
         "text": "Un c\u00f3digo postal en Colombia comparte muchos l\u00edmites administrativos, por lo que se deben reusar en las relaciones de c\u00f3digo postal. Cuando no hay un l\u00edmite administrativo, se crea un l\u00edmite de tipo c\u00f3digo postal, que estara uniendo dos l\u00edmites, y as\u00ed poder cerrar el \u00e1rea."
       },
       "number": 5,
-      "prompt": "Cuando se est\u00e1 creando la relaci\u00f3n de postal_code puede que no se encuentre un segmento boundary por donde este pasa. \u00bfQu\u00e9 se puede hacer?"
+      "prompt": "Cuando se est\u00e1 creando la relaci\u00f3n de \"postal_code\" puede que no se encuentre un segmento boundary por donde este pasa. \u00bfQu\u00e9 se puede hacer?"
     },
     {
       "answers": [
@@ -69,7 +69,7 @@
       ],
       "correct": {
         "index": 1,
-        "text": "Hay c\u00f3digos postales de 5 d\u00edgitos que son para los municipios, pero no definen un \u00e1rea. Los de 6 d\u00edgitos son los que m\u00e1s nos interesan, ya que definen \u00e1reas en los que aplican. Los de 9 d\u00edgitos se llaman c\u00f3digo postales ampliados y definen manzanas / cuadra, pero no se mapean en OSM."
+        "text": "Hay c\u00f3digos postales de 5 d\u00edgitos que son para los municipios, pero no definen un \u00e1rea. Los de 6 d\u00edgitos son los que m\u00e1s nos interesan, ya que definen \u00e1reas en los que aplican. Los de 9 d\u00edgitos se llaman c\u00f3digo postales ampliados y definen manzanas / cuadras, pero no se mapean en OSM."
       },
       "number": 6,
       "prompt": "\u00bfCu\u00e1ntos d\u00edgitos tiene un c\u00f3digo postal de \u00e1rea en Colombia?"
@@ -77,10 +77,12 @@
     {
       "answers": [
         "No existen",
-        "Definen un c\u00f3digo postal para el municipio"
+        "Definen un c\u00f3digo postal para el municipio",
+        "Son los c\u00f3digos postales ampliados"
       ],
       "correct": {
-        "index": 1
+        "index": 1,
+        "text": "Corresponden al c\u00f3digo postal del municipio."
       },
       "number": 7,
       "prompt": "\u00bfQu\u00e9 son los c\u00f3digos postales de 5 d\u00edgitos en Colombia?"
@@ -100,10 +102,12 @@
     {
       "answers": [
         "Nada, los c\u00f3digos postales son n\u00fameros consecutivos",
-        "Son los c\u00f3digos de departamento del DANE"
+        "Son los c\u00f3digos de departamento del DANE",
+        "Son los c\u00f3digos de \u00e1rea"
       ],
       "correct": {
-        "index": 1
+        "index": 1,
+        "text": "Los primeros 2 d\u00edgitos corresponden al c\u00f3digo de departamento. Los siguientes 2 d\u00edgitos son la zona postal. Los \u00faltimos 2 d\u00edgitos son el distrito postal."
       },
       "number": 9,
       "prompt": "\u00bfQu\u00e9 significan los primeros dos d\u00edgitos de los c\u00f3digos postales?"
@@ -111,10 +115,12 @@
     {
       "answers": [
         "Ministerio del interio, visor c\u00f3digo postal",
-        "Visor c\u00f3digo postal, divisi\u00f3n del MinTIC"
+        "Visor c\u00f3digo postal, divisi\u00f3n del MinTIC",
+        "Visor postal, en la p\u00e1gina del IGAC"
       ],
       "correct": {
-        "index": 1
+        "index": 1,
+        "text": "La p\u00e1gina oficial para ver los c\u00f3digos postales es el \"Visor de c\u00f3digos postales\", de 7-24, entidad del Ministerio TIC."
       },
       "number": 10,
       "prompt": "Si quieres verificar el \u00e1rea de un c\u00f3digo postal, \u00bfcu\u00e1l es la p\u00e1gina para ver los c\u00f3digos postales oficiales de Colombia?"
@@ -129,7 +135,7 @@
         "text": "El campo \"name\" contiene \"C\u00f3digo postal XXXXXX\" donde XXXXXX es el c\u00f3digo postal de 6 d\u00edgitos. \"postal_code\" tan solo contiene \"XXXXXX\""
       },
       "number": 11,
-      "prompt": "En las relaciones, \u00bfel campo name debe tener el mismo contenido que el campo postal_code?"
+      "prompt": "En las relaciones, \u00bfel campo \"name\" debe tener el mismo contenido que el campo \"postal_code\"?"
     },
     {
       "answers": [
@@ -138,7 +144,7 @@
       ],
       "correct": {
         "index": 0,
-        "text": "A diferencia del campo \"name\" en las \u00e1reas que definen el c\u00f3digo postal (boundary=postal_code), en una direcci\u00f3n tan solo se pone el n\u00famero de c\u00f3gido postal (igual que en el campo \"postal_code\" de las relaciones)."
+        "text": "A diferencia del campo \"name\" en las \u00e1reas que definen el c\u00f3digo postal (\"boundary=postal_code\"), en una direcci\u00f3n tan solo se pone el n\u00famero de c\u00f3gido postal (igual que en el campo \"postal_code\" de las relaciones)."
       },
       "number": 12,
       "prompt": "\u00bfC\u00f3mo se llena el campo addr:postcode de una direcci\u00f3n?"
