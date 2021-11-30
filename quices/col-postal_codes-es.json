@@ -2,8 +2,8 @@
   "questions": [
     {
       "answers": [
-        "Si",
-        "No"
+        "Si.",
+        "No."
       ],
       "correct": {
         "index": 0,
@@ -14,8 +14,8 @@
     },
     {
       "answers": [
-        "Si",
-        "No"
+        "Si.",
+        "No."
       ],
       "correct": {
         "index": 0,
@@ -26,8 +26,8 @@
     },
     {
       "answers": [
-        "Verdadero",
-        "Falso"
+        "Verdadero.",
+        "Falso."
       ],
       "correct": {
         "index": 1,
@@ -38,9 +38,9 @@
     },
     {
       "answers": [
-        "Dibujar una nueva \u00e1rea, con \"postal_code=yes\"",
-        "Por medio de una relaci\u00f3n de tipo \"boundary=administrative\"",
-        "Dibujar varios ways, y ponerles \"postal_code=XXXXXX\", donde XXXXXX es el n\u00famero de c\u00f3digo postal"
+        "Dibujar una nueva \u00e1rea, con \"postal_code=yes\".",
+        "Por medio de una relaci\u00f3n de tipo \"boundary=administrative\".",
+        "Dibujar varios ways, y ponerles \"postal_code=XXXXXX\", donde XXXXXX es el n\u00famero de c\u00f3digo postal."
       ],
       "correct": {
         "index": 1,
@@ -51,8 +51,8 @@
     },
     {
       "answers": [
-        "Extender el boundary m\u00e1s cercano por donde pase el c\u00f3digo postal",
-        "Adicionar un nuevo segmento \"boudary=postal_code\" que una dos segmentos \"boundary=administrative\""
+        "Extender el boundary m\u00e1s cercano por donde pase el c\u00f3digo postal.",
+        "Adicionar un nuevo segmento \"boudary=postal_code\" que una dos segmentos \"boundary=administrative\"."
       ],
       "correct": {
         "index": 1,
@@ -63,9 +63,9 @@
     },
     {
       "answers": [
-        "5 d\u00edgitos",
-        "5, 6 o 9 d\u00edgitos",
-        "6 d\u00edgitos"
+        "5 d\u00edgitos.",
+        "5, 6 o 9 d\u00edgitos.",
+        "6 d\u00edgitos."
       ],
       "correct": {
         "index": 1,
@@ -76,9 +76,9 @@
     },
     {
       "answers": [
-        "No existen",
-        "Definen un c\u00f3digo postal para el municipio",
-        "Son los c\u00f3digos postales ampliados"
+        "No existen.",
+        "Definen un c\u00f3digo postal para el municipio.",
+        "Son los c\u00f3digos postales ampliados."
       ],
       "correct": {
         "index": 1,
@@ -89,8 +89,8 @@
     },
     {
       "answers": [
-        "No",
-        "Si"
+        "No.",
+        "Si."
       ],
       "correct": {
         "index": 0,
@@ -101,9 +101,9 @@
     },
     {
       "answers": [
-        "Nada, los c\u00f3digos postales son n\u00fameros consecutivos",
-        "Son los c\u00f3digos de departamento del DANE",
-        "Son los c\u00f3digos de \u00e1rea"
+        "Nada, los c\u00f3digos postales son n\u00fameros consecutivos.",
+        "Son los c\u00f3digos de departamento del DANE.",
+        "Son los c\u00f3digos de \u00e1rea."
       ],
       "correct": {
         "index": 1,
@@ -114,9 +114,9 @@
     },
     {
       "answers": [
-        "Ministerio del interio, visor c\u00f3digo postal",
-        "Visor c\u00f3digo postal, divisi\u00f3n del MinTIC",
-        "Visor postal, en la p\u00e1gina del IGAC"
+        "Ministerio del interio, visor c\u00f3digo postal.",
+        "Visor c\u00f3digo postal, divisi\u00f3n del MinTIC.",
+        "Visor postal, en la p\u00e1gina del IGAC."
       ],
       "correct": {
         "index": 1,
@@ -127,20 +127,20 @@
     },
     {
       "answers": [
-        "Verdadero",
-        "Falso"
+        "Verdadero.",
+        "Falso."
       ],
       "correct": {
         "index": 1,
-        "text": "El campo \"name\" contiene \"C\u00f3digo postal XXXXXX\" donde XXXXXX es el c\u00f3digo postal de 6 d\u00edgitos. \"postal_code\" tan solo contiene \"XXXXXX\""
+        "text": "El campo \"name\" contiene \"C\u00f3digo postal XXXXXX\" donde XXXXXX es el c\u00f3digo postal de 6 d\u00edgitos. \"postal_code\" tan solo contiene \"XXXXXX\"."
       },
       "number": 11,
       "prompt": "En las relaciones, \u00bfel campo \"name\" debe tener el mismo contenido que el campo \"postal_code\"?"
     },
     {
       "answers": [
-        "Tan solo se escribe el n\u00famero, XXXXXX",
-        "Se escriben las palabra \"C\u00f3digo postal XXXXXX\", donde XXXXXX es el n\u00famero de c\u00f3digo postal"
+        "Tan solo se escribe el n\u00famero, XXXXXX.",
+        "Se escriben las palabra \"C\u00f3digo postal XXXXXX\", donde XXXXXX es el n\u00famero de c\u00f3digo postal."
       ],
       "correct": {
         "index": 0,

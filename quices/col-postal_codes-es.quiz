@@ -11,89 +11,89 @@ url: https://maptimebogota.github.io/OSM-quiz/
 
 1) ¿ Se puede poner un código postal en el feature "addr:postcode"?
 
-  * Si
-  - No
+  * Si.
+  - No.
 
   Los códigos postales se pueden poner como parte de los detalles de una dirección (address): "<a target="_blank" href="https://wiki.openstreetmap.org/wiki/Key:addr:postcode">addr:postcode=*</a>".
 
 2) ¿Se puede definir un código postal como un área?
 
-  * Si
-  - No
+  * Si.
+  - No.
 
   El área en la cual corresponde un código postal específico, se puede definir bajo una relación "<a target="_blank" href="https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dpostal_code">boundary=postal_code</a>".
 
 3) ¿Se pueden definir códigos postales en otras etiqueta (a parte de "addr:postcode" y "boundary=postal_code")?
 
-   - Verdadero
-   * Falso
+   - Verdadero.
+   * Falso.
 
    Los códigos postales solo se pueden definir en "<a target="_blank" href="https://wiki.openstreetmap.org/wiki/Key:addr:postcode">addr:postcode=*</a>" y "<a target="_blank" href="https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dpostal_code">boundary=postal_code</a>". Recuerda, que son dos palabras diferentes que hacen referencia al mismo concepto: "postcode" y "postal_code". Difiere en el tipo de feature donde los uses.
 
 4) Para definir el área en el que un código postal aplica, ¿qué elemento se usa de OSM?
 
-  - Dibujar una nueva área, con "postal_code=yes"
-  * Por medio de una relación de tipo "boundary=administrative"
-  - Dibujar varios ways, y ponerles "postal_code=XXXXXX", donde XXXXXX es el número de código postal
+  - Dibujar una nueva área, con "postal_code=yes".
+  * Por medio de una relación de tipo "boundary=administrative".
+  - Dibujar varios ways, y ponerles "postal_code=XXXXXX", donde XXXXXX es el número de código postal.
 
   Para definir el área que cubre un códigos postal se crea una relación de tipo "<a target="_blank" href="https://wiki.openstreetmap.org/wiki/Relation:boundarye">type=boundary</a>", y cuyos segmentos definen el área del código postal. Los segmentos pueden ser "boundary=administrative" o "boundary=postal_code".
 
 5) Cuando se está creando la relación de "postal_code" puede que no se encuentre un segmento boundary por donde este pasa. ¿Qué se puede hacer?
 
-  - Extender el boundary más cercano por donde pase el código postal
-  * Adicionar un nuevo segmento "boudary=postal_code" que una dos segmentos "boundary=administrative"
+  - Extender el boundary más cercano por donde pase el código postal.
+  * Adicionar un nuevo segmento "boudary=postal_code" que una dos segmentos "boundary=administrative".
 
   Un código postal en Colombia comparte muchos límites administrativos, por lo que se deben reusar en las relaciones de código postal. Cuando no hay un límite administrativo, se crea un límite de tipo código postal, que estara uniendo dos límites, y así poder cerrar el área.
 
 6) ¿Cuántos dígitos tiene un código postal de área en Colombia?
 
-  - 5 dígitos
-  * 5, 6 o 9 dígitos
-  - 6 dígitos
+  - 5 dígitos.
+  * 5, 6 o 9 dígitos.
+  - 6 dígitos.
 
   Hay códigos postales de 5 dígitos que son para los municipios, pero no definen un área. Los de 6 dígitos son los que más nos interesan, ya que definen áreas en los que aplican. Los de 9 dígitos se llaman código postales ampliados y definen manzanas / cuadras, pero no se mapean en OSM.
 
 7) ¿Qué son los códigos postales de 5 dígitos en Colombia?
 
-  - No existen
-  * Definen un código postal para el municipio
-  - Son los códigos postales ampliados
+  - No existen.
+  * Definen un código postal para el municipio.
+  - Son los códigos postales ampliados.
 
   Corresponden al código postal del municipio.
 
 8) ¿Se mapean los códigos postales de 9 dígitos, también llamado códigos postales ampliado?
 
-  * No
-  - Si
+  * No.
+  - Si.
 
   No se mapean, ya que no tienen un uso práctico. Fueron definidos por 7-24, pero no se recomienda su uso en OSM.
 
 9) ¿Qué significan los primeros dos dígitos de los códigos postales?
 
-  - Nada, los códigos postales son números consecutivos
-  * Son los códigos de departamento del DANE
-  - Son los códigos de área
+  - Nada, los códigos postales son números consecutivos.
+  * Son los códigos de departamento del DANE.
+  - Son los códigos de área.
 
   Los primeros 2 dígitos corresponden al código de departamento. Los siguientes 2 dígitos son la zona postal. Los últimos 2 dígitos son el distrito postal.
 
 10) Si quieres verificar el área de un código postal, ¿cuál es la página para ver los códigos postales oficiales de Colombia?
 
-  - Ministerio del interio, visor código postal
-  * Visor código postal, división del MinTIC
-  - Visor postal, en la página del IGAC
+  - Ministerio del interio, visor código postal.
+  * Visor código postal, división del MinTIC.
+  - Visor postal, en la página del IGAC.
 
   La página oficial para ver los códigos postales es el "Visor de códigos postales", de 7-24, entidad del Ministerio TIC.
 
 11) En las relaciones, ¿el campo "name" debe tener el mismo contenido que el campo "postal_code"?
 
-  - Verdadero
-  * Falso
+  - Verdadero.
+  * Falso.
 
-  El campo "name" contiene "Código postal XXXXXX" donde XXXXXX es el código postal de 6 dígitos. "postal_code" tan solo contiene "XXXXXX"
+  El campo "name" contiene "Código postal XXXXXX" donde XXXXXX es el código postal de 6 dígitos. "postal_code" tan solo contiene "XXXXXX".
 
 12) ¿Cómo se llena el campo "addr:postcode" de una dirección?
 
-  * Tan solo se escribe el número, XXXXXX
-  - Se escriben las palabra "Código postal XXXXXX", donde XXXXXX es el número de código postal
+  * Tan solo se escribe el número, XXXXXX.
+  - Se escriben las palabra "Código postal XXXXXX", donde XXXXXX es el número de código postal.
 
   A diferencia del campo "name" en las áreas que definen el código postal ("boundary=postal_code"), en una dirección tan solo se pone el número de cógido postal (igual que en el campo "postal_code" de las relaciones).
