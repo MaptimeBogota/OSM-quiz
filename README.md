@@ -29,7 +29,7 @@ You can modify any other quiz, but this guide is made for this file.
 * The previous script will generate a `.josm` file: `osm-basic-en.osm`.
 You just need to commit both files (`.quiz` and `.json`) and push into GitHub.
 
-    git commit -a -m "Quia change"
+    git commit -a -m "Quiz change"
     git push
 
 * Finally, wait a little bit, until GitHub page is refreshed: [https://maptimebogota.github.io/OSM-quiz/](https://maptimebogota.github.io/OSM-quiz/).
