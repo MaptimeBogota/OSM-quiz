@@ -1,0 +1,28 @@
+// Quiz sobre cómo resolver notas en Colombia.
+//
+// Author: Andres Gomez @angoca
+// Version: 2021-12-01
+
+// Parent URL.
+url: https://maptimebogota.github.io/OSM-quiz/
+
+// Title of the quiz.
+# ¿Conoces bien el proceso de resolución de notas de OSM?
+
+1) ¿En qué consiste el proceso de resolución de notas?
+
+  - Cerrar las notas que no indican nada.
+  * Traducir en una modificación en el mapa la observación descrita en la nota.
+  - Responder a la persona que creó la nota, indicándole si fue una buena nota.
+
+2) ¿Es necesario dejar un mensaje al resolver una nota?
+
+  - No es necesario, y es mejor conservar el anonimato.
+  * Se recomienda como mínimo poner el mensaje del proyecto.
+  - Se puede dejar un mensaje si se ve necesario.
+
+Cómo se puede resolver una nota?
+
+Es necesario poder un mensaje al cerrar la nota
+
+Puedes denunciar notas que encuentres ofensivas o que atenten contra la privacidad

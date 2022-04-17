@@ -11,73 +11,135 @@ url: https://maptimebogota.github.io/OSM-quiz/
 
 1) ¿Con qué tipo etiqueta (no el valor) se debe mapear el trayecto de un río o quebrada?
 
-  - riverway
-  - streamway
-  * waterway
-  - way
+  - riverway.
+  - streamway.
+  * waterway.
+  - way.
 
   La <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:Colombia/Guide_for_mapping">Guía de mapeo</a> indica que se deben mapear con <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:Key:waterway">waterway=*</a>.
 
 
-2) ¿Cuál es la diferencia entre río y quebrada al mapear?
+2) En Colombia, ¿Cuál es la diferencia entre río y quebrada al mapear?
 
-  - El río es grande, y la quebrada es pequeña
-  * Colombia no tiene una definición oficial, por lo tanto la guía de mapeo no lo indica
-  - El stream / quebrada desemboca en un river / río, mientra que el river / río llega al océano
+  - El río es grande, y la quebrada es pequeña.
+  * Colombia no tiene una definición oficial, por lo tanto la guía de mapeo no lo indica.
+  - El stream / quebrada desemboca en un river / río, mientra que el river / río llega al mar u océano.
 
-  Tristemente Colombia no ofrece una definición clara sobre esto. Hay ríos de pequeño caudal, y quebradas grandes.
-
-
-3) En una quebrada, como parte de la etiqueta name, ¿se debe incluir el tipo de cuerpo de agua - Quebrada?
-
-  - No, gracias al valor stream de la etiqueta waterway, se sabe que es una quebrada
-  * Es necesario especificarlo. Inclusive debe ser en Español, ya que es el idioma oficial de Colombia
-  - En OSM, todos se consideran Ríos, por lo que no es necesario agregar la palabra río
-
-  Es necesario especificar el tipo de cuerpo de agua como parte de la etiqueta name. Como "Río Magnalena" o "Quebrada La Vieja". Es de esta forma como está especificado en la documentación de <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:Tag:waterway%3Driver#Etiquetas_adicionales">waterway=*</a>. Inclusive debe ser en el idioma oficial del país.
+  Tristemente Colombia no ofrece una definición clara sobre esto. Hay cuerpos de agua de tipo río de pequeño caudal, y quebradas grandes.
 
 
-4) Los trayectos de los ríos, ¿pueden compartir propiedades con límites administrativos? Por ejemplo, el Río Orinoco es a la vez la frontera con Venezuela.
+3) Voy a mapear un curso de agua, ¿cómo decido entre "waterway=river" y "waterway=stream"?
 
-  - Si, hay que reducir la cantidad de nodos
-  * No, los límites adminsitrativos no deben compartir nodos con el trayecto de un río o quebrada
+  - Dependiendo del nombre del cuerpo de agua.
+  * Si se puede cruzar de un salto es "stream". De lo contrario es "river".
+  - Si no se tiene el nombre, se pone "stream". Si tiene nombre, "river".
+
+  La <a target="_blank" href="https://wiki.openstreetmap.org/wiki/Tag:waterway%3Dstream">definición en OSM</a> indica que si se puede atravezar con un salto es un "stream", de lo contrario será un "river".
+
+
+4) En una quebrada, como parte de la etiqueta "name", ¿se debe incluir el tipo de cuerpo de agua - Quebrada?
+
+  - No, gracias al valor "stream" de la etiqueta "waterway", se sabe que es una quebrada.
+  * Es necesario especificarlo. Inclusive debe ser en Español, ya que es el idioma oficial de Colombia.
+  - En OSM, todos se consideran los cuerpos de agua se consideran "river", por lo que no es necesario agregar la palabra río, ni quebrada.
+
+  Es necesario especificar el tipo de cuerpo de agua como parte de la etiqueta name. Como "Río Magdalena" o "Quebrada La Vieja". Es de esta forma como está especificado en la documentación de <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:Tag:waterway%3Driver#Etiquetas_adicionales">waterway=*</a>. Inclusive debe ser en el idioma oficial del país.
+
+
+5) Los trayectos de los ríos, ¿pueden compartir propiedades con límites administrativos? Por ejemplo, el Río Orinoco es a la vez la frontera con Venezuela.
+
+  - Si, hay que reducir la cantidad de nodos.
+  * No, los límites adminsitrativos no deben compartir nodos con el trayecto de un río o quebrada.
 
   No se deben compartir, ya que si el río / quebrada cambia de curso, la frontera o límite administrativo no cambiaría, y no es así.
 
-5) Con respecto a la tilde en la palabra río:
 
-  * Se debe agregar en la etiqueta name con tilde
-  - No se debe agregar este caracter especial, ya que OSM no soporta tildes
+6) Con respecto a la tilde en la palabra río:
+
+  * Se debe agregar en la etiqueta name con tilde.
+  - No se debe agregar este caracter especial, ya que OSM no soporta tildes.
 
   En OSM se debe preservar la ortografía, incluyendo tildes. OSM soporta los caracteres de todos los idiomas.
 
-6) Si estoy mapeando muchas quebradas, ¿puedo usar una abreviación a la palabra como "Qbda." para agilizar el mapeo?
 
-  - Si
-  * No
+7) Si estoy mapeando muchas quebradas, ¿puedo usar una abreviación a la palabra como "Qbda." para agilizar el mapeo?
+
+  - Si.
+  * No.
 
   En OSM nunca se deben usar abreviaciones, sino las palabras completas. Otras personas pueden no entender estas abreviaciones.
 
-7) Si es necesario alinear el cauce de un río o quebrada, ¿cuál es la forma de hacerlo más rápido?
 
-  - Borrarlo todo y volver a dibujarlo
-  * En JOSM modo experto, utilizar la opción w
-  - Mover manualmente los nodos, y crear varios nodos intermedios
+8) Sí es necesario alinear el cauce de un río o quebrada, ¿cuál es la forma de hacerlo más rápido?
 
-  Lo mejor es utilizar JOSM en modo experto, y activar la opción <a target="_blank" href="https://josm.openstreetmap.de/wiki/Help/Action/ImproveWayAccuracy">"Mejorar la precisión de los ways"</a> con la tecla w.
+  - Borrarlo todo y volver a dibujarlo.
+  * En JOSM modo experto, utilizar la opción w.
+  - Mover manualmente los nodos, y crear varios nodos intermedios.
 
-8) Si quieres mapear quebradas cuyo trayecto es dentro de la selva, ¿qué puedes hacer?
+  Lo mejor es utilizar JOSM en modo experto, y activar la opción <a target="_blank" href="https://josm.openstreetmap.de/wiki/Help/Action/ImproveWayAccuracy">"Mejorar la precisión de los ways"</a> con la tecla 'w'.
 
-  - Nada, ya que no se ve desde la imagen satelital
-  * Usar el geoservicio del IGAC
-  - Verificar otros mapas como Google Maps
+
+9) Si quieres mapear quebradas cuyo trayecto es dentro de la selva, ¿qué puedes hacer?
+
+  - Nada, ya que no se ve desde la imagen satelital.
+  * Usar el geoservicio del IGAC.
+  - Verificar otros mapas como Google Maps.
 
   Para mapear quebradas entre la selva, se puede usar la capa de "drenajes sencillos" de los <a target="_blank" href="https://geoportal.igac.gov.co/contenido/geoservicios">geoservicios del IGAC</a>. También lo puedes usar para identificar nombres de ríos o quebradas que no estén en OSM.
 
-9) ¿En qué consiste el proyecto de modernización de ríos?
 
-  - Mejorar el curso de los ríos
-  * Cabiar waterway=riverbank
-  - Corregir los nombres de los ríos
+10) ¿En qué consiste el proyecto de modernización de ríos?
 
-  Hay un <a target="_blank" href="https://wiki.openstreetmap.org/wiki/WikiProject_Waterways/River_modernization">proyecto mundial de modernización de ríos</a> que consiste en cambiar de waterway=riverbank por natural=water + water=river.
+  - Mejorar el curso de los ríos.
+  * Cabiar "waterway=riverbank".
+  - Corregir los nombres de los ríos.
+
+  Hay un <a target="_blank" href="https://wiki.openstreetmap.org/wiki/WikiProject_Waterways/River_modernization">proyecto mundial de modernización de ríos</a> que consiste en cambiar de "waterway=riverbank" por "natural=water" + "water=river".
+
+
+11) Cuando usamos la capa de drenajes del IGAC, y vemos que un cuerpo de agua pasa por un terreno verde, ¿qué hacemos?
+
+  - Copia el mismo trayecto del IGAC, ya que es la fuente verídica.
+  * Buscamos el cauce más probable, que normalmente está rodeado de árboles. A los bordes de una quebrada, siempre se ven más árboles que en terreno llano.
+  - Olvidar ese cuerpo de agua, ya que no se puede mapear con esa fuente de datos.
+
+  (image) images/col-rivers-1.png
+
+  Como se pudo ver en la imagen, el curso del IGAC, línea azul está sobre terrenos verdes, pero más al norte vemos una línea de vegetación paralela a la línea azul. Es por esa vegetación que corre el cuerpo de agua.
+
+
+12) La capa de OpenCycleMap ofrece curvas de nivel, ¿cómo estas nos pueden ayudar a mapear ríos y quebradas?
+
+  - Las curvas de nivel solo sirven para identificar montañas y picos.
+  * Los ríos y quebradas decienden por los valles, que en las curvas de nivel se ven como una V apuntando río arriba.
+  - OpenCycleMap está basado en OSM, por lo que no ofrece datos adicionales.
+
+  (image) images/col-rivers-2.png
+
+  Las curvas de nivel tienen una serie de entradas en los valles, que permiten identificar el curso de los cuerpos de agua. Poniendo un poco de transparencia a esta capa, y junto a la satelital para ver la vegetación, y así podrás identificar puntualmente el curso del agua.
+
+
+13) El "waterway" permite trazar el curso del río. ¿Cómo se mapea?
+
+  * El "waterway" se mapea por la mitad del río, o por las zonas más profundas (si se ve que tiene bajo caudal).
+  - Por el borde derecho sentido río abajo.
+  - No importa, lo importante es que no se salga del cauce del río.
+
+  El waterway se mapea más o menos por la mitad del río. El ancho que pueda usar el río cuando hay alto caudal es por medio de "natural=water" + "water=river".
+
+
+14) ¿Cuál es la dirección del way con respecto a la quebrada o río?
+
+  - No importa, lo importante son las etiquetas que se le pongan ("flow=forward" o "flow=backward").
+  * Se debe dibujar del mismo lado del flujo de la corriente, aguas abajo.
+  - Aguas arriba, para dirigirse hacia el nacimiento del río.
+
+  Los ríos se mapean con el sentido aguas abajo.
+
+
+// tidal channel https://wiki.openstreetmap.org/wiki/Tag:waterway%3Dtidal_channel
+// TODO Otros cuerpos de agua, pero artificiales
+// canal https://wiki.openstreetmap.org/wiki/Tag:waterway%3Dcanal
+// drain https://wiki.openstreetmap.org/wiki/Tag:waterway%3Ddrain
+// ditch - zanja https://wiki.openstreetmap.org/wiki/ES:Tag:waterway%3Dditch
+// TODO Mapeo de cruce de río con vía: bridge, culvert o ford

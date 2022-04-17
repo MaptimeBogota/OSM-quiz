@@ -24,13 +24,15 @@ You can modify any other quiz, but this guide is made for this file.
 
     python quiz_questions.py quices/osm-basic-en.quiz
 
-`quiz_questions.py` is the Python script to convert your questions to a JSON file that can be parsed as a web page.
+`quiz_questions.py` is the Python script that converts your questions to a JSON file that can be parsed as a web page.
 
-* The previous script will generate a `.josm` file: `osm-basic-en.osm`.
+* The previous script will generate a `.josm` file: `osm-basic-en.osm` under the same directory `quices`.
 You just need to commit both files (`.quiz` and `.json`) and push into GitHub.
 
     git commit -a -m "Quiz change"
     git push
+
+If you forked this repository, then you will need to do a pull request. Otherwise, you need to configure your own gh-pages branch.
 
 * Finally, wait a little bit, until GitHub page is refreshed: [https://maptimebogota.github.io/OSM-quiz/](https://maptimebogota.github.io/OSM-quiz/).
 
@@ -58,10 +60,7 @@ Let's suppose you create a quiz called `myOSMquiz`, then the file should be call
 
 `quiz_questions.py` is the Python script to convert your questions to a JSON file that can be parsed as a web page.
 
-* The previous script will generate a `.josm` file: `myOSMquiz.quiz`.
-First you need to add to git tracking:
-
-    git add quices/myOSMquiz.*
+The previous script will generate a `.josm` file: `myOSMquiz.quiz`.
 
 * You need to create a dedicated HTML file for this quiz, calling the function quiz.
 For example, called `quices/myOSMquiz.html`.
@@ -73,14 +72,18 @@ You can copy any of the existing HTML files for quices, and just replace this:
       });
     </script>
 
+* Then, it is time to add all new files to git tracking:
+
+    git add quices/myOSMquiz.*
+
 * Now, you need to modify the list of quices in the `index.html` file.
 You just need to add a new line in the corresponding language section:
 
     <li><a href="myOSMquiz.html">My OSM quiz</a></li>
 
-* You just need to commit myOSMquiz files (`.quiz`, `.json` and `.html`) the `index.html`.
+* You just need to commit myOSMquiz files (`.quiz`, `.json` and `.html`) and the `index.html`.
 
-    git commit quices/myOSMquiz.quiz quices/myOSMquiz.json quices/myOSMquiz.html quices/index.html -m "First commit of my own OSM quiz"
+    git commit quices/myOSMquiz.* quices/index.html -m "First commit of my own OSM quiz"
 
 * And now you can publish into GitHub.
 
