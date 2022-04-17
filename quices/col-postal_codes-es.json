@@ -54,6 +54,33 @@
     },
     {
       "answers": [
+        "Extender el boundary m\u00e1s cercano por donde pase el c\u00f3digo postal.",
+        "Adicionar un nuevo segmento \"boudary=postal_code\" y que este una dos segmentos boundary (administrative o postal_code)."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Un c\u00f3digo postal en Colombia comparte muchos l\u00edmites administrativos, por lo que se deben reusar en las relaciones de c\u00f3digo postal. Cuando no hay un l\u00edmite administrativo, se crea un l\u00edmite de tipo c\u00f3digo postal, que estara uniendo dos l\u00edmites, y as\u00ed poder cerrar el \u00e1rea."
+      },
+      "image": "images/codigo-postal/5-segmento.png",
+      "number": 5,
+      "prompt": "Cuando se est\u00e1 creando la relaci\u00f3n de \"postal_code\" puede que no se encuentre un segmento boundary por donde este pasa. \u00bfQu\u00e9 se puede hacer?"
+    },
+    {
+      "answers": [
+        "5 d\u00edgitos.",
+        "5, 6 o 9 d\u00edgitos.",
+        "6 d\u00edgitos."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Hay c\u00f3digos postales de 5 d\u00edgitos los cuales son para los municipios, pero no definen un \u00e1rea concreta. Los de 6 d\u00edgitos son los que m\u00e1s nos interesan, ya que definen \u00e1reas en los que aplican. Los de 9 d\u00edgitos se llaman c\u00f3digo postales ampliados y definen manzanas / cuadras, pero no se mapean en OSM."
+      },
+      "image": "images/codigo-postal/6-codigo_postal.jpeg",
+      "number": 6,
+      "prompt": "\u00bfCu\u00e1ntos d\u00edgitos tiene un c\u00f3digo postal de \u00e1rea en Colombia?"
+    },
+    {
+      "answers": [
         "No existen.",
         "Definen un c\u00f3digo postal para el municipio.",
         "Son los c\u00f3digos postales ampliados."

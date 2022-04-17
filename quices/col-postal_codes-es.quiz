@@ -50,21 +50,21 @@ url: https://maptimebogota.github.io/OSM-quiz/
 
 5) Cuando se está creando la relación de "postal_code" puede que no se encuentre un segmento boundary por donde este pasa. ¿Qué se puede hacer?
 
-  (image) images/codigo-postal/5-segmento.png
-
   - Extender el boundary más cercano por donde pase el código postal.
   * Adicionar un nuevo segmento "boudary=postal_code" y que este una dos segmentos boundary (administrative o postal_code).
+
+  (image) images/codigo-postal/5-segmento.png
 
   Un código postal en Colombia comparte muchos límites administrativos, por lo que se deben reusar en las relaciones de código postal. Cuando no hay un límite administrativo, se crea un límite de tipo código postal, que estara uniendo dos límites, y así poder cerrar el área.
 
 
 6) ¿Cuántos dígitos tiene un código postal de área en Colombia?
 
-  (image) images/codigo-postal/6-codigo_postal.jpeg
-
   - 5 dígitos.
   * 5, 6 o 9 dígitos.
   - 6 dígitos.
+
+  (image) images/codigo-postal/6-codigo_postal.jpeg
 
   Hay códigos postales de 5 dígitos los cuales son para los municipios, pero no definen un área concreta. Los de 6 dígitos son los que más nos interesan, ya que definen áreas en los que aplican. Los de 9 dígitos se llaman código postales ampliados y definen manzanas / cuadras, pero no se mapean en OSM.
 
