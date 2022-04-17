@@ -175,7 +175,7 @@ var $indicators = $('<ol>')
       if (correct) {
         opts = $.extend(opts, {
           title: "Asombroso!",
-          text: "Bien hecho" + (
+          text: "Bien hecho." + (
             question.correct.text ?
             ("<div class=\"correct-text\">" +
               question.correct.text +
@@ -185,10 +185,10 @@ var $indicators = $('<ol>')
         });
       } else {
         opts = $.extend(opts, {
-          title: "Caramba",
+          title: "Caramba.",
           text: (
             "Eso no es correcto<br/><br/>" +
-            "La respuesta correcte era \"" +
+            "La respuesta correcta era \"" +
             question.answers[question.correct.index] + "\"." + (
             question.correct.text ?
             ("<div class=\"correct-text\">" +
@@ -221,7 +221,7 @@ var $indicators = $('<ol>')
             $results_ratio.text(
               "Obtuviste " +
               Math.round(100*(state.correct/state.total)) +
-              "% de respuestas correctas"
+              "% de respuestas correctas."
             );
             $twitter_link.attr('href', tweet(state, quiz_opts));
             $facebook_link.attr('href', facebook(state, quiz_opts));
@@ -275,7 +275,7 @@ var $indicators = $('<ol>')
 
   var $social = $("<div>")
     .attr('class', 'results-social')
-    .html('<div id = "social-text">¿Te gustó el quiz? Comparte tus resultados con tus amigos, para que ellos también lo intenten</div>')
+    .html('<div id = "social-text">¿Te gustó el quiz? Comparte tus resultados con tus amigos, para que ellos también lo intenten.</div>')
     .appendTo($results_slide);
 
   var $twitter_link = $('<a>')
@@ -288,7 +288,7 @@ var $indicators = $('<ol>')
 
   $("<button>")
     .attr('class', 'quiz-button btn')
-    .text("Try again?")
+    .text("¿Intentar de nuevo?")
     .click(function() {
       state.correct = 0;
       $quiz.carousel(0);
