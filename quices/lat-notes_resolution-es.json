@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "Cerrar las notas que no indican nada.",
+        "Traducir en una modificaci\u00f3n en el mapa la observaci\u00f3n descrita en la nota."
+      ],
+      "correct": {
+        "index": 1
+      },
+      "number": 1,
+      "prompt": "\u00bfEn qu\u00e9 consiste el proceso de resoluci\u00f3n de notas?"
+    },
+    {
+      "answers": [
+        "No es necesario, y es mejor conservar el anonimato.",
+        "Se recomienda como m\u00ednimo poner el mensaje del proyecto."
+      ],
+      "correct": {
+        "index": 1
+      },
+      "number": 2,
+      "prompt": "\u00bfEs necesario dejar un mensaje al resolver una nota?"
+    }
+  ],
+  "title": "\u00bfConoces bien el proceso de resoluci\u00f3n de notas de OSM?",
+  "url": "https://maptimebogota.github.io/OSM-quiz/"
+}

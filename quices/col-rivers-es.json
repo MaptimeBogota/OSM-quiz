@@ -1,0 +1,164 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "riverway.",
+        "streamway.",
+        "waterway.",
+        "way."
+      ],
+      "correct": {
+        "index": 2,
+        "text": "La <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Colombia/Guide_for_mapping\">Gu\u00eda de mapeo</a> indica que se deben mapear con <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Key:waterway\">waterway=*</a>."
+      },
+      "number": 1,
+      "prompt": "\u00bfCon qu\u00e9 tipo etiqueta (no el valor) se debe mapear el trayecto de un r\u00edo o quebrada?"
+    },
+    {
+      "answers": [
+        "El r\u00edo es grande, y la quebrada es peque\u00f1a.",
+        "Colombia no tiene una definici\u00f3n oficial, por lo tanto la gu\u00eda de mapeo no lo indica.",
+        "El stream / quebrada desemboca en un river / r\u00edo, mientra que el river / r\u00edo llega al mar u oc\u00e9ano."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Tristemente Colombia no ofrece una definici\u00f3n clara sobre esto. Hay cuerpos de agua de tipo r\u00edo de peque\u00f1o caudal, y quebradas grandes."
+      },
+      "number": 2,
+      "prompt": "En Colombia, \u00bfCu\u00e1l es la diferencia entre r\u00edo y quebrada al mapear?"
+    },
+    {
+      "answers": [
+        "Dependiendo del nombre del cuerpo de agua.",
+        "Si se puede cruzar de un salto es \"stream\". De lo contrario es \"river\".",
+        "Si no se tiene el nombre, se pone \"stream\". Si tiene nombre, \"river\"."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "La <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Tag:waterway%3Dstream\">definici\u00f3n en OSM</a> indica que si se puede atravezar con un salto es un \"stream\", de lo contrario ser\u00e1 un \"river\"."
+      },
+      "number": 3,
+      "prompt": "Voy a mapear un curso de agua, \u00bfc\u00f3mo decido entre \"waterway=river\" y \"waterway=stream\"?"
+    },
+    {
+      "answers": [
+        "No, gracias al valor \"stream\" de la etiqueta \"waterway\", se sabe que es una quebrada.",
+        "Es necesario especificarlo. Inclusive debe ser en Espa\u00f1ol, ya que es el idioma oficial de Colombia.",
+        "En OSM, todos se consideran los cuerpos de agua se consideran \"river\", por lo que no es necesario agregar la palabra r\u00edo, ni quebrada."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Es necesario especificar el tipo de cuerpo de agua como parte de la etiqueta name. Como \"R\u00edo Magdalena\" o \"Quebrada La Vieja\". Es de esta forma como est\u00e1 especificado en la documentaci\u00f3n de <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Tag:waterway%3Driver#Etiquetas_adicionales\">waterway=*</a>. Inclusive debe ser en el idioma oficial del pa\u00eds."
+      },
+      "number": 4,
+      "prompt": "En una quebrada, como parte de la etiqueta \"name\", \u00bfse debe incluir el tipo de cuerpo de agua - Quebrada?"
+    },
+    {
+      "answers": [
+        "Si.",
+        "No."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "En OSM nunca se deben usar abreviaciones, sino las palabras completas. Otras personas pueden no entender estas abreviaciones."
+      },
+      "number": 7,
+      "prompt": "Si estoy mapeando muchas quebradas, \u00bfpuedo usar una abreviaci\u00f3n a la palabra como \"Qbda.\" para agilizar el mapeo?"
+    },
+    {
+      "answers": [
+        "Borrarlo todo y volver a dibujarlo.",
+        "En JOSM modo experto, utilizar la opci\u00f3n w.",
+        "Mover manualmente los nodos, y crear varios nodos intermedios."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Lo mejor es utilizar JOSM en modo experto, y activar la opci\u00f3n <a target=\"_blank\" href=\"https://josm.openstreetmap.de/wiki/Help/Action/ImproveWayAccuracy\">\"Mejorar la precisi\u00f3n de los ways\"</a> con la tecla 'w'."
+      },
+      "number": 8,
+      "prompt": "S\u00ed es necesario alinear el cauce de un r\u00edo o quebrada, \u00bfcu\u00e1l es la forma de hacerlo m\u00e1s r\u00e1pido?"
+    },
+    {
+      "answers": [
+        "Nada, ya que no se ve desde la imagen satelital.",
+        "Usar el geoservicio del IGAC.",
+        "Verificar otros mapas como Google Maps."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Para mapear quebradas entre la selva, se puede usar la capa de \"drenajes sencillos\" de los <a target=\"_blank\" href=\"https://geoportal.igac.gov.co/contenido/geoservicios\">geoservicios del IGAC</a>. Tambi\u00e9n lo puedes usar para identificar nombres de r\u00edos o quebradas que no est\u00e9n en OSM."
+      },
+      "number": 9,
+      "prompt": "Si quieres mapear quebradas cuyo trayecto es dentro de la selva, \u00bfqu\u00e9 puedes hacer?"
+    },
+    {
+      "answers": [
+        "Mejorar el curso de los r\u00edos.",
+        "Cabiar \"waterway=riverbank\".",
+        "Corregir los nombres de los r\u00edos."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Hay un <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/WikiProject_Waterways/River_modernization\">proyecto mundial de modernizaci\u00f3n de r\u00edos</a> que consiste en cambiar de \"waterway=riverbank\" por \"natural=water\" + \"water=river\"."
+      },
+      "number": 10,
+      "prompt": "\u00bfEn qu\u00e9 consiste el proyecto de modernizaci\u00f3n de r\u00edos?"
+    },
+    {
+      "answers": [
+        "Copia el mismo trayecto del IGAC, ya que es la fuente ver\u00eddica.",
+        "Buscamos el cauce m\u00e1s probable, que normalmente est\u00e1 rodeado de \u00e1rboles. A los bordes de una quebrada, siempre se ven m\u00e1s \u00e1rboles que en terreno llano.",
+        "Olvidar ese cuerpo de agua, ya que no se puede mapear con esa fuente de datos."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Como se pudo ver en la imagen, el curso del IGAC, l\u00ednea azul est\u00e1 sobre terrenos verdes, pero m\u00e1s al norte vemos una l\u00ednea de vegetaci\u00f3n paralela a la l\u00ednea azul. Es por esa vegetaci\u00f3n que corre el cuerpo de agua."
+      },
+      "image": "images/col-rivers-es/col-rivers-11.png",
+      "number": 11,
+      "prompt": "Cuando usamos la capa de drenajes del IGAC, y vemos que un cuerpo de agua pasa por un terreno verde, \u00bfqu\u00e9 hacemos?"
+    },
+    {
+      "answers": [
+        "Las curvas de nivel solo sirven para identificar monta\u00f1as y picos.",
+        "Los r\u00edos y quebradas decienden por los valles, que en las curvas de nivel se ven como una V apuntando r\u00edo arriba.",
+        "OpenCycleMap est\u00e1 basado en OSM, por lo que no ofrece datos adicionales."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Las curvas de nivel tienen una serie de entradas en los valles, que permiten identificar el curso de los cuerpos de agua. Poniendo un poco de transparencia a esta capa, y junto a la satelital para ver la vegetaci\u00f3n, y as\u00ed podr\u00e1s identificar puntualmente el curso del agua."
+      },
+      "image": "images/col-rivers-es/col-rivers-12.png",
+      "number": 12,
+      "prompt": "La capa de OpenCycleMap ofrece curvas de nivel, \u00bfc\u00f3mo estas nos pueden ayudar a mapear r\u00edos y quebradas?"
+    },
+    {
+      "answers": [
+        "El \"waterway\" se mapea por la mitad del r\u00edo, o por las zonas m\u00e1s profundas (si se ve que tiene bajo caudal).",
+        "Por el borde derecho sentido r\u00edo abajo.",
+        "No importa, lo importante es que no se salga del cauce del r\u00edo."
+      ],
+      "correct": {
+        "index": 0,
+        "text": "El waterway se mapea m\u00e1s o menos por la mitad del r\u00edo. El ancho que pueda usar el r\u00edo cuando hay alto caudal es por medio de \"natural=water\" + \"water=river\"."
+      },
+      "number": 13,
+      "prompt": "El \"waterway\" permite trazar el curso del r\u00edo. \u00bfC\u00f3mo se mapea?"
+    },
+    {
+      "answers": [
+        "No importa, lo importante son las etiquetas que se le pongan (\"flow=forward\" o \"flow=backward\").",
+        "Se debe dibujar del mismo lado del flujo de la corriente, aguas abajo.",
+        "Aguas arriba, para dirigirse hacia el nacimiento del r\u00edo."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Los r\u00edos se mapean con el sentido aguas abajo."
+      },
+      "number": 14,
+      "prompt": "\u00bfCu\u00e1l es la direcci\u00f3n del way con respecto a la quebrada o r\u00edo?"
+    }
+  ],
+  "title": "\u00bfSabes c\u00f3mo mapear r\u00edos y quebradas en Colombia? veamos",
+  "url": "https://maptimebogota.github.io/OSM-quiz/"
+}

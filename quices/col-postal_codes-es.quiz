@@ -14,7 +14,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Si.
   - No.
 
-  (image) images/codigo-postal/1-addr.png
+  (image) images/col-postal_codes-es/1-addr.png
 
   Los códigos postales se pueden poner como parte de los detalles de una dirección (address): "<a target="_blank" href="https://wiki.openstreetmap.org/wiki/Key:addr:postcode">addr:postcode=*</a>".
 
@@ -24,7 +24,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Si.
   - No.
 
-  (image) images/codigo-postal/2-area.png
+  (image) images/col-postal_codes-es/2-area.png
 
   El área en la cual corresponde un código postal específico, se puede definir bajo una relación "<a target="_blank" href="https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dpostal_code">boundary=postal_code</a>".
 
@@ -34,7 +34,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   - Si.
   * No.
 
-  (image) images/codigo-postal/3-relation.png
+  (image) images/col-postal_codes-es/3-relation.png
 
   En OSM, los códigos postales solo se pueden definir en "<a target="_blank" href="https://wiki.openstreetmap.org/wiki/Key:addr:postcode">addr:postcode=*</a>" y "<a target="_blank" href="https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dpostal_code">boundary=postal_code</a>". Recuerda, que son dos palabras diferentes que hacen referencia al mismo concepto: "postcode" y "postal_code". Difiere en el tipo de 'feature' donde los uses.
 
@@ -53,7 +53,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   - Extender el boundary más cercano por donde pase el código postal.
   * Adicionar un nuevo segmento "boudary=postal_code" y que este una dos segmentos boundary (administrative o postal_code).
 
-  (image) images/codigo-postal/5-segmento.png
+  (image) images/col-postal_codes-es/5-segmento.png
 
   Un código postal en Colombia comparte muchos límites administrativos, por lo que se deben reusar en las relaciones de código postal. Cuando no hay un límite administrativo, se crea un límite de tipo código postal, que estara uniendo dos límites, y así poder cerrar el área.
 
@@ -64,7 +64,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * 5, 6 o 9 dígitos.
   - 6 dígitos.
 
-  (image) images/codigo-postal/6-codigo_postal.jpeg
+  (image) images/col-postal_codes-es/6-codigo_postal.jpeg
 
   Hay códigos postales de 5 dígitos los cuales son para los municipios, pero no definen un área concreta. Los de 6 dígitos son los que más nos interesan, ya que definen áreas en los que aplican. Los de 9 dígitos se llaman código postales ampliados y definen manzanas / cuadras, pero no se mapean en OSM.
 
@@ -92,7 +92,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Son los códigos de departamento del DANE.
   - Son los códigos de área.
 
-  (image) images/codigo-postal/9-codigos.png
+  (image) images/col-postal_codes-es/9-codigos.png
 
   Los primeros 2 dígitos corresponden al código de departamento del DANE. Los siguientes 2 dígitos son la zona postal. Los últimos 2 dígitos son el distrito postal.
 
@@ -103,7 +103,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Visor Código Postal, división del MinTIC.
   - Visor Postal, en la página del IGAC.
 
-  (image) images/codigo-postal/10-visor.png
+  (image) images/col-postal_codes-es/10-visor.png
 
   La página oficial para ver los códigos postales es el "Visor de Códigos Postales", de 7-24, entidad del Ministerio de Tecnología de la Información y Comunicaciones MinTIC.
 
@@ -113,7 +113,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   - Verdadero.
   * Falso.
 
-  (image) images/codigo-postal/11-name.png
+  (image) images/col-postal_codes-es/11-name.png
 
   El campo "name" contiene "Código postal XXXXXX" donde XXXXXX es el código postal de 6 dígitos. El campo "postal_code" tan solo contiene "XXXXXX".
 
@@ -123,7 +123,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Tan solo se escribe el número, XXXXXX.
   - Se escriben las palabra "Código postal XXXXXX", donde XXXXXX es el número de código postal.
 
-  (image) images/codigo-postal/12-addr.png
+  (image) images/col-postal_codes-es/12-addr.png
 
   A diferencia del campo "name" en las áreas que definen el código postal ("boundary=postal_code"), en una dirección tan solo se pone el número de cógido postal (igual que en el campo "postal_code" de las relaciones).
 

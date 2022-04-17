@@ -2,31 +2,44 @@
   "questions": [
     {
       "answers": [
-        "Autopista",
-        "V\u00eda de alta velocidad",
-        "V\u00eda",
-        "Camino alto"
+        "Autopista.",
+        "V\u00eda de alta velocidad.",
+        "V\u00eda.",
+        "Camino alto."
       ],
       "correct": {
         "index": 2,
-        "text": "OSM est\u00e1 inicialmente definido en ingl\u00e9s brit\u00e1nico, por lo que highwa <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Colombia/Guide_for_mapping\">Gu\u00eda de mapeo</a> indica que se deben mapear con <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:Key:waterway\">waterway=*</a>."
+        "text": "OSM est\u00e1 inicialmente definido en ingl\u00e9s brit\u00e1nico, por lo que \"highway\" significa v\u00eda. Autopista en ingl\u00e9s brit\u00e1nico es \"motorway\", aunque es autopista en el sentido estricto de la palabra."
       },
       "number": 1,
-      "prompt": "\u00bfCu\u00e1l es la mejor traducci\u00f3n de la palabra highway en el contexto de OSM?"
+      "prompt": "\u00bfCu\u00e1l es la mejor traducci\u00f3n de la palabra \"highway\" en el contexto de OSM?"
     },
     {
       "answers": [
-        "Si",
-        "No"
+        "Si.",
+        "No."
       ],
       "correct": {
         "index": 1,
-        "text": "Realmente en Colombia no hay autopistas (motorway), as\u00ed se llamen as\u00ed."
+        "text": "Realmente en Colombia no hay autopistas (motorway), inclusive si se llaman as\u00ed (Autopista norte). Las autopistas tienen unas caracter\u00edsticas particulares que en Colombia ninguna v\u00eda las cumple."
       },
       "number": 2,
       "prompt": "\u00bfEn Colombia se pueden mapear motorways (autopistas)?"
+    },
+    {
+      "answers": [
+        "En las \u00e1reas residenciales.",
+        "En las v\u00edas peatonales.",
+        "Ninguna de las anteriores."
+      ],
+      "correct": {
+        "index": 2,
+        "text": "En Colombia no hay como tal living streets."
+      },
+      "number": 3,
+      "prompt": "\u00bfD\u00f3nde puedo mapear las v\u00edas de tipo \"living_street\"?"
     }
   ],
-  "title": "\u00bfSabes c\u00f3mo mapear r\u00edos y quebradas en Colombia? veamos",
+  "title": "\u00bfSabes c\u00f3mo mapear v\u00edas en Colombia?",
   "url": "https://maptimebogota.github.io/OSM-quiz/"
 }

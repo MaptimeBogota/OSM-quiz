@@ -103,7 +103,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Buscamos el cauce más probable, que normalmente está rodeado de árboles. A los bordes de una quebrada, siempre se ven más árboles que en terreno llano.
   - Olvidar ese cuerpo de agua, ya que no se puede mapear con esa fuente de datos.
 
-  (image) images/col-rivers-1.png
+  (image) images/col-rivers-es/col-rivers-11.png
 
   Como se pudo ver en la imagen, el curso del IGAC, línea azul está sobre terrenos verdes, pero más al norte vemos una línea de vegetación paralela a la línea azul. Es por esa vegetación que corre el cuerpo de agua.
 
@@ -114,7 +114,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Los ríos y quebradas decienden por los valles, que en las curvas de nivel se ven como una V apuntando río arriba.
   - OpenCycleMap está basado en OSM, por lo que no ofrece datos adicionales.
 
-  (image) images/col-rivers-2.png
+  (image) images/col-rivers-es/col-rivers-12.png
 
   Las curvas de nivel tienen una serie de entradas en los valles, que permiten identificar el curso de los cuerpos de agua. Poniendo un poco de transparencia a esta capa, y junto a la satelital para ver la vegetación, y así podrás identificar puntualmente el curso del agua.
 

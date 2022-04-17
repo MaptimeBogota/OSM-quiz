@@ -21,7 +21,7 @@
       ],
       "correct": {
         "index": 1,
-        "text": "OSM ofrce los siguientes estilos de mapa en su p\u00e1gina principal: Standard, CyclOSM, Cyclism, Transport, OPNVKarte y Humanitarian."
+        "text": "OSM ofrece los siguientes estilos de mapa en su p\u00e1gina principal: Standard, CyclOSM, Cyclism, Transport, OPNVKarte y Humanitarian."
       },
       "number": 2,
       "prompt": "\u00bfCu\u00e1ntos estilos de mapa ofrece OpenStreetMap en su p\u00e1gina principal?"
@@ -36,7 +36,7 @@
         "index": 1,
         "text": "Parece que ya creaste tu cuenta, \u00a1grandioso!"
       },
-      "image": "images/registering-account.png",
+      "image": "images/osm-basic-es/3-registering-account.png",
       "number": 3,
       "prompt": "\u00bfQu\u00e9 se necesita para abrir una cuenta en OpenStreetMap?"
     },

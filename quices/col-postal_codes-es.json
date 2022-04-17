@@ -9,7 +9,7 @@
         "index": 0,
         "text": "Los c\u00f3digos postales se pueden poner como parte de los detalles de una direcci\u00f3n (address): \"<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Key:addr:postcode\">addr:postcode=*</a>\"."
       },
-      "image": "images/codigo-postal/1-addr.png",
+      "image": "images/col-postal_codes-es/1-addr.png",
       "number": 1,
       "prompt": "\u00bfSe puede poner un c\u00f3digo postal en el feature \"addr:postcode\"?"
     },
@@ -22,7 +22,7 @@
         "index": 0,
         "text": "El \u00e1rea en la cual corresponde un c\u00f3digo postal espec\u00edfico, se puede definir bajo una relaci\u00f3n \"<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dpostal_code\">boundary=postal_code</a>\"."
       },
-      "image": "images/codigo-postal/2-area.png",
+      "image": "images/col-postal_codes-es/2-area.png",
       "number": 2,
       "prompt": "\u00bfSe puede definir un c\u00f3digo postal como un \u00e1rea?"
     },
@@ -35,7 +35,7 @@
         "index": 1,
         "text": "En OSM, los c\u00f3digos postales solo se pueden definir en \"<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Key:addr:postcode\">addr:postcode=*</a>\" y \"<a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dpostal_code\">boundary=postal_code</a>\". Recuerda, que son dos palabras diferentes que hacen referencia al mismo concepto: \"postcode\" y \"postal_code\". Difiere en el tipo de 'feature' donde los uses."
       },
-      "image": "images/codigo-postal/3-relation.png",
+      "image": "images/col-postal_codes-es/3-relation.png",
       "number": 3,
       "prompt": "\u00bfSe pueden definir c\u00f3digos postales en otras etiqueta (a parte de \"addr:postcode\" y \"boundary=postal_code\")?"
     },
@@ -61,7 +61,7 @@
         "index": 1,
         "text": "Un c\u00f3digo postal en Colombia comparte muchos l\u00edmites administrativos, por lo que se deben reusar en las relaciones de c\u00f3digo postal. Cuando no hay un l\u00edmite administrativo, se crea un l\u00edmite de tipo c\u00f3digo postal, que estara uniendo dos l\u00edmites, y as\u00ed poder cerrar el \u00e1rea."
       },
-      "image": "images/codigo-postal/5-segmento.png",
+      "image": "images/col-postal_codes-es/5-segmento.png",
       "number": 5,
       "prompt": "Cuando se est\u00e1 creando la relaci\u00f3n de \"postal_code\" puede que no se encuentre un segmento boundary por donde este pasa. \u00bfQu\u00e9 se puede hacer?"
     },
@@ -75,7 +75,7 @@
         "index": 1,
         "text": "Hay c\u00f3digos postales de 5 d\u00edgitos los cuales son para los municipios, pero no definen un \u00e1rea concreta. Los de 6 d\u00edgitos son los que m\u00e1s nos interesan, ya que definen \u00e1reas en los que aplican. Los de 9 d\u00edgitos se llaman c\u00f3digo postales ampliados y definen manzanas / cuadras, pero no se mapean en OSM."
       },
-      "image": "images/codigo-postal/6-codigo_postal.jpeg",
+      "image": "images/col-postal_codes-es/6-codigo_postal.jpeg",
       "number": 6,
       "prompt": "\u00bfCu\u00e1ntos d\u00edgitos tiene un c\u00f3digo postal de \u00e1rea en Colombia?"
     },
@@ -114,7 +114,7 @@
         "index": 1,
         "text": "Los primeros 2 d\u00edgitos corresponden al c\u00f3digo de departamento del DANE. Los siguientes 2 d\u00edgitos son la zona postal. Los \u00faltimos 2 d\u00edgitos son el distrito postal."
       },
-      "image": "images/codigo-postal/9-codigos.png",
+      "image": "images/col-postal_codes-es/9-codigos.png",
       "number": 9,
       "prompt": "\u00bfQu\u00e9 significan los primeros dos d\u00edgitos de los c\u00f3digos postales?"
     },
@@ -128,7 +128,7 @@
         "index": 1,
         "text": "La p\u00e1gina oficial para ver los c\u00f3digos postales es el \"Visor de C\u00f3digos Postales\", de 7-24, entidad del Ministerio de Tecnolog\u00eda de la Informaci\u00f3n y Comunicaciones MinTIC."
       },
-      "image": "images/codigo-postal/10-visor.png",
+      "image": "images/col-postal_codes-es/10-visor.png",
       "number": 10,
       "prompt": "Si quieres verificar el \u00e1rea de un c\u00f3digo postal, \u00bfcu\u00e1l es la p\u00e1gina para ver los c\u00f3digos postales oficiales de Colombia?"
     },
@@ -141,7 +141,7 @@
         "index": 1,
         "text": "El campo \"name\" contiene \"C\u00f3digo postal XXXXXX\" donde XXXXXX es el c\u00f3digo postal de 6 d\u00edgitos. El campo \"postal_code\" tan solo contiene \"XXXXXX\"."
       },
-      "image": "images/codigo-postal/11-name.png",
+      "image": "images/col-postal_codes-es/11-name.png",
       "number": 11,
       "prompt": "En las relaciones, \u00bfel campo \"name\" debe tener el mismo contenido que el campo \"postal_code\"?"
     },
@@ -154,7 +154,7 @@
         "index": 0,
         "text": "A diferencia del campo \"name\" en las \u00e1reas que definen el c\u00f3digo postal (\"boundary=postal_code\"), en una direcci\u00f3n tan solo se pone el n\u00famero de c\u00f3gido postal (igual que en el campo \"postal_code\" de las relaciones)."
       },
-      "image": "images/codigo-postal/12-addr.png",
+      "image": "images/col-postal_codes-es/12-addr.png",
       "number": 12,
       "prompt": "\u00bfC\u00f3mo se llena el campo \"addr:postcode\" de una direcci\u00f3n (addr:*)?"
     }
