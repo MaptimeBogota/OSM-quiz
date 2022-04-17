@@ -9,7 +9,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
 // Title of the quiz.
 # Los códigos postales son "recientes" en Colombia, ¿ya sabes cómo se mapean en OpenStreetMap?
 
-1) ¿ Se puede poner un código postal en el feature "addr:postcode"?
+1) ¿Se puede poner un código postal en el feature "addr:postcode"?
 
   * Si.
   - No.

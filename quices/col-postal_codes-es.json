@@ -11,7 +11,7 @@
       },
       "image": "images/codigo-postal/1-addr.png",
       "number": 1,
-      "prompt": "\u00bf Se puede poner un c\u00f3digo postal en el feature \"addr:postcode\"?"
+      "prompt": "\u00bfSe puede poner un c\u00f3digo postal en el feature \"addr:postcode\"?"
     },
     {
       "answers": [
