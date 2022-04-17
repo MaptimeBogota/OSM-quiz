@@ -1,0 +1,44 @@
+// Quiz sobre conocimiento de mapeo de vías y caminos.
+//
+// Author: Andres Gomez @angoca
+// Version: 2021-11-29
+
+// Parent URL.
+url: https://maptimebogota.github.io/OSM-quiz/
+
+// Title of the quiz.
+# ¿Sabes cómo mapear vías en Colombia?
+
+1) ¿Cuál es la mejor traducción de la palabra "highway" en el contexto de OSM?
+
+  - Autopista.
+  - Vía de alta velocidad.
+  * Vía.
+  - Camino alto.
+
+  OSM está inicialmente definido en inglés británico, por lo que "highway" significa vía. Autopista en inglés británico es "motorway", aunque es autopista en el sentido estricto de la palabra.
+
+
+2) ¿En Colombia se pueden mapear motorways (autopistas)?
+
+  - Si.
+  * No.
+
+  Realmente en Colombia no hay autopistas (motorway), inclusive si se llaman así (Autopista norte). Las autopistas tienen unas características particulares que en Colombia ninguna vía las cumple.
+
+
+3) ¿Dónde puedo mapear las vías de tipo "living_street"?
+
+  - En las áreas residenciales.
+  - En las vías peatonales.
+  * Ninguna de las anteriores.
+
+  En Colombia no hay como tal living streets.
+
+
+// TODO Diferencia entre path y footway https://wiki.openstreetmap.org/wiki/ES:Tag:highway%3Dpath
+// TODO Diferencia entre path y track https://wiki.openstreetmap.org/wiki/ES:Tag:highway%3Dpath https://wiki.openstreetmap.org/wiki/ES:Tag:highway%3Dtrack 
+// TODO Qué es bridleway
+// TODO Cuáles etiquetas son usadas para tránsito motorizado - https://wiki.openstreetmap.org/wiki/ES:Tag:highway%3Dpath
+// TODO Cómo se mapea una pista ciclable - https://wiki.openstreetmap.org/wiki/ES:Tag:highway%3Dcycleway
+// TODO tipos de tracks https://wiki.openstreetmap.org/wiki/Key:tracktype
