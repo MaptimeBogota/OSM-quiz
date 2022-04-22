@@ -59,7 +59,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Se recomienda como mínimo poner el mensaje del proyecto de resolución de notas.
   - Se puede dejar un mensaje si el contenido era ofensivo.
 
-  Se recomienda como mínimo dejar el <a href="https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Mensajes_de_resoluci.C3.B3n">mensaje por defecto del proyecto</a>. Esto promociona la actividad de cerrado de notas, además de ofrecer un punto de comunicación con el grupo que las resuelve. Inclusive, la persona se puede interesar en crear más notas o convertirse en contribuidor mapeando.
+  Se recomienda como mínimo dejar el <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Mensajes_de_resoluci.C3.B3n">mensaje por defecto del proyecto</a>. Esto promociona la actividad de cerrado de notas, además de ofrecer un punto de comunicación con el grupo que las resuelve. Inclusive, la persona se puede interesar en crear más notas o convertirse en contribuidor mapeando.
 
 
 7) ¿Se pueden denunciar notas ofensivas o que atenten contra la privacidad de alguna persona?
@@ -68,7 +68,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   - No.
   - Lo mejor es cerrar immediatamente este tipo de notas.
 
-  Las notas que encuentres inapropiadas las puedes denunciar ante el <a href="https://wiki.openstreetmap.org/wiki/Data_working_group">Data Working Group</a>. Ellos harán lo necesario con respecto a la nota y dejará de ser pública.
+  Las notas que encuentres inapropiadas las puedes denunciar ante el <a target="_blank" href="https://wiki.openstreetmap.org/wiki/Data_working_group">Data Working Group</a>. Ellos harán lo necesario con respecto a la nota y dejará de ser pública.
 
 
 8) ¿El cerrado de notas es una iniciativa a nivel LatAm?
@@ -77,7 +77,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   - No, cada comunidad es independiente.
   - Las notas son una característica obsoleta de OSM.
 
-  Desde la <a href="https://wiki.openstreetmap.org/wiki/ES:LatAm/Eventos/20220129_Reuni%C3%B3n_virtual">primera junta Latam de 2022</a> se decidió que se iban a hacer eventos mensuales de resolución de notas, Notathon, para integrar la comunidad latinoamericana. Chile tiene sus notas bajo control desde hace tiempo, y Colombia es el segundo que se une a esto.
+  Desde la <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:LatAm/Eventos/20220129_Reuni%C3%B3n_virtual">primera junta Latam de 2022</a> se decidió que se iban a hacer eventos mensuales de resolución de notas, Notathon, para integrar la comunidad latinoamericana. Chile tiene sus notas bajo control desde hace tiempo, y Colombia es el segundo que se une a esto.
 
 
 9) ¿Cuál página web ofrece un análisis de notas por país?
@@ -86,7 +86,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Neis Pascal.
   - MapComplete.
 
-  La <a href="https://resultmaps.neis-one.org/osm-notes">página de Pascal Neis</a> ofrece un comparativo de notas entre países, la tasa de notas abiertas frente a cerradas, un listado de las notas abiertas y las que han tenido recientes interacciones. Es la herramienta recomendada para cerrar notas.
+  La <a target="_blank" href="https://resultmaps.neis-one.org/osm-notes">página de Pascal Neis</a> ofrece un comparativo de notas entre países, la tasa de notas abiertas frente a cerradas, un listado de las notas abiertas y las que han tenido recientes interacciones. Es la herramienta recomendada para cerrar notas.
 
 
 10) Si la nota está escrita en otro idioma, por ejemplo Francés, y está ubicada en Colombia, ¿Qué haces con la nota?
@@ -95,7 +95,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Traducirla con alguna herramienta.
   - Reportarla por contenido errado.
 
-  Las notas que están en otro idioma las puedes traducir por medio de <a href="https://translate.google.com/?hl=es&sl=es&tl=en&op=translate">Google Translate</a>. Cuando la resuelvas puedes poner el mensaje del proyecto, y algo opcional en la lengua de la nota o en inglés.
+  Las notas que están en otro idioma las puedes traducir por medio de <a target="_blank" href="https://translate.google.com/?hl=es&sl=es&tl=en&op=translate">Google Translate</a>. Cuando la resuelvas puedes poner el mensaje del proyecto, y algo opcional en la lengua de la nota o en inglés.
 
 
 11) ¿Cómo se pueden resolver las notas de mi ciudad?
@@ -112,7 +112,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Esta página ofrece un análisis y listado de notas.
   - Esa página no ofrece funcionalidad específica de notas.
 
-  Esta página muestra un <a href="https://resultmaps.neis-one.org/osm-notes">análisis de notas abiertas / cerradas por país</a>, más un listado de las notas de cada país organizado por id (fecha).
+  Esta página muestra un <a target="_blank" href="https://resultmaps.neis-one.org/osm-notes">análisis de notas abiertas / cerradas por país</a>, más un listado de las notas de cada país organizado por id (fecha).
 
 
 13) Todas las notas aportan al mapa, y no se pueden cerrar sin hacer un cambio.
@@ -129,7 +129,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   - En los eventos de notas.
   - En ningún otro lado.
 
-  En el mensaje del commit también se pone el mismo hastag, y con eso se pueden filtrar los commits asociados al <a href="https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Mensajes_de_resoluci.C3.B3n">Proyecto de notas</a>.
+  En el mensaje del commit también se pone el mismo hastag, y con eso se pueden filtrar los commits asociados al <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Mensajes_de_resoluci.C3.B3n">Proyecto de notas</a>.
 
 15) Cuando se resuelve una nota, ¿qué se debe poner en el mensaje del commit?
 
@@ -137,7 +137,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   - Si la nota fue buena o mala "Mala nota #ONL".
   - Simplemente decir "Resolución de notas #ONL".
 
-  Se recomienda hacer <a href="https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Metodolog.C3.ADa">commit por nota</a> además de incluir el número de la nota en el commit. Si es necesario reversar el cambio, solo afectará lo modificado por la nota.
+  Se recomienda hacer <a target="_blank" href="https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Metodolog.C3.ADa">commit por nota</a> además de incluir el número de la nota en el commit. Si es necesario reversar el cambio, solo afectará lo modificado por la nota.
 
 
 16) ¿Es obligatorio ir en terreno y revisar cada nota?

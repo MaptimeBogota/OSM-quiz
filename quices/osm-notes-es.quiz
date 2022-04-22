@@ -41,7 +41,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Varias aplicaciones han integrado el API de notas, para crear o visualizar.
   - La página de OSM, iD y JOSM.
 
-  El <a href="https://wiki.openstreetmap.org/wiki/API_v0.6#Map_Notes_API">API de notas de OSM</a> se ha integrado en varias herramientas. En el <a href="https://www.openstreetmap.org/user/AngocA/diary/398995">diario de AngocA se muestra un comparativo de varias aplicaciones que usan notas y sus funcionalidades</a>. Estas incluyen aplicaciones web, de escritorio y dispositivos móviles.
+  El <a target="_blank" href="https://wiki.openstreetmap.org/wiki/API_v0.6#Map_Notes_API">API de notas de OSM</a> se ha integrado en varias herramientas. En el <a target="_blank" href="https://www.openstreetmap.org/user/AngocA/diary/398995">diario de AngocA se muestra un comparativo de varias aplicaciones que usan notas y sus funcionalidades</a>. Estas incluyen aplicaciones web, de escritorio y dispositivos móviles.
 
 
 5) ¿Se pueden crear en aplicaciones de celular?
@@ -75,7 +75,7 @@ url: https://maptimebogota.github.io/OSM-quiz/
   * Denunciar la nota.
   - Cerrarla rápidamente, y así desaparecerá.
 
-  Si quieres que los datos dejen de estar públicos, lo mejor es que la "denuncies" y el <a href="https://wiki.openstreetmap.org/wiki/Data_working_group">Data Working Group</a> hará lo necesario para que no sea visible. En cambio, si la cierras, puede que no se vea en muchos mapas, pero seguirán existiendo los datos en el archivo, el "planet".
+  Si quieres que los datos dejen de estar públicos, lo mejor es que la "denuncies" y el <a target="_blank" href="https://wiki.openstreetmap.org/wiki/Data_working_group">Data Working Group</a> hará lo necesario para que no sea visible. En cambio, si la cierras, puede que no se vea en muchos mapas, pero seguirán existiendo los datos en el archivo, el "planet".
 
 
 9) ¿Es necesario estar registrado en OSM para crear una nota?

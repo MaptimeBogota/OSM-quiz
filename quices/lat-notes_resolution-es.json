@@ -59,7 +59,7 @@
       ],
       "correct": {
         "index": 1,
-        "text": "Se recomienda como m\u00ednimo dejar el <a href=\"https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Mensajes_de_resoluci.C3.B3n\">mensaje por defecto del proyecto</a>. Esto promociona la actividad de cerrado de notas, adem\u00e1s de ofrecer un punto de comunicaci\u00f3n con el grupo que las resuelve. Inclusive, la persona se puede interesar en crear m\u00e1s notas o convertirse en contribuidor mapeando."
+        "text": "Se recomienda como m\u00ednimo dejar el <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Mensajes_de_resoluci.C3.B3n\">mensaje por defecto del proyecto</a>. Esto promociona la actividad de cerrado de notas, adem\u00e1s de ofrecer un punto de comunicaci\u00f3n con el grupo que las resuelve. Inclusive, la persona se puede interesar en crear m\u00e1s notas o convertirse en contribuidor mapeando."
       },
       "number": 6,
       "prompt": "\u00bfEs necesario dejar un mensaje al resolver una nota?"
@@ -72,7 +72,7 @@
       ],
       "correct": {
         "index": 0,
-        "text": "Las notas que encuentres inapropiadas las puedes denunciar ante el <a href=\"https://wiki.openstreetmap.org/wiki/Data_working_group\">Data Working Group</a>. Ellos har\u00e1n lo necesario con respecto a la nota y dejar\u00e1 de ser p\u00fablica."
+        "text": "Las notas que encuentres inapropiadas las puedes denunciar ante el <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Data_working_group\">Data Working Group</a>. Ellos har\u00e1n lo necesario con respecto a la nota y dejar\u00e1 de ser p\u00fablica."
       },
       "number": 7,
       "prompt": "\u00bfSe pueden denunciar notas ofensivas o que atenten contra la privacidad de alguna persona?"
@@ -85,7 +85,7 @@
       ],
       "correct": {
         "index": 0,
-        "text": "Desde la <a href=\"https://wiki.openstreetmap.org/wiki/ES:LatAm/Eventos/20220129_Reuni%C3%B3n_virtual\">primera junta Latam de 2022</a> se decidi\u00f3 que se iban a hacer eventos mensuales de resoluci\u00f3n de notas, Notathon, para integrar la comunidad latinoamericana. Chile tiene sus notas bajo control desde hace tiempo, y Colombia es el segundo que se une a esto."
+        "text": "Desde la <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:LatAm/Eventos/20220129_Reuni%C3%B3n_virtual\">primera junta Latam de 2022</a> se decidi\u00f3 que se iban a hacer eventos mensuales de resoluci\u00f3n de notas, Notathon, para integrar la comunidad latinoamericana. Chile tiene sus notas bajo control desde hace tiempo, y Colombia es el segundo que se une a esto."
       },
       "number": 8,
       "prompt": "\u00bfEl cerrado de notas es una iniciativa a nivel LatAm?"
@@ -98,7 +98,7 @@
       ],
       "correct": {
         "index": 1,
-        "text": "La <a href=\"https://resultmaps.neis-one.org/osm-notes\">p\u00e1gina de Pascal Neis</a> ofrece un comparativo de notas entre pa\u00edses, la tasa de notas abiertas frente a cerradas, un listado de las notas abiertas y las que han tenido recientes interacciones. Es la herramienta recomendada para cerrar notas."
+        "text": "La <a target=\"_blank\" href=\"https://resultmaps.neis-one.org/osm-notes\">p\u00e1gina de Pascal Neis</a> ofrece un comparativo de notas entre pa\u00edses, la tasa de notas abiertas frente a cerradas, un listado de las notas abiertas y las que han tenido recientes interacciones. Es la herramienta recomendada para cerrar notas."
       },
       "number": 9,
       "prompt": "\u00bfCu\u00e1l p\u00e1gina web ofrece un an\u00e1lisis de notas por pa\u00eds?"
@@ -111,7 +111,7 @@
       ],
       "correct": {
         "index": 1,
-        "text": "Las notas que est\u00e1n en otro idioma las puedes traducir por medio de <a href=\"https://translate.google.com/?hl=es&sl=es&tl=en&op=translate\">Google Translate</a>. Cuando la resuelvas puedes poner el mensaje del proyecto, y algo opcional en la lengua de la nota o en ingl\u00e9s."
+        "text": "Las notas que est\u00e1n en otro idioma las puedes traducir por medio de <a target=\"_blank\" href=\"https://translate.google.com/?hl=es&sl=es&tl=en&op=translate\">Google Translate</a>. Cuando la resuelvas puedes poner el mensaje del proyecto, y algo opcional en la lengua de la nota o en ingl\u00e9s."
       },
       "number": 10,
       "prompt": "Si la nota est\u00e1 escrita en otro idioma, por ejemplo Franc\u00e9s, y est\u00e1 ubicada en Colombia, \u00bfQu\u00e9 haces con la nota?"
@@ -136,7 +136,7 @@
       ],
       "correct": {
         "index": 1,
-        "text": "Esta p\u00e1gina muestra un <a href=\"https://resultmaps.neis-one.org/osm-notes\">an\u00e1lisis de notas abiertas / cerradas por pa\u00eds</a>, m\u00e1s un listado de las notas de cada pa\u00eds organizado por id (fecha)."
+        "text": "Esta p\u00e1gina muestra un <a target=\"_blank\" href=\"https://resultmaps.neis-one.org/osm-notes\">an\u00e1lisis de notas abiertas / cerradas por pa\u00eds</a>, m\u00e1s un listado de las notas de cada pa\u00eds organizado por id (fecha)."
       },
       "number": 12,
       "prompt": "\u00bfCu\u00e1l es la importancia de la p\u00e1gina de Neis Pascal?"
@@ -149,7 +149,7 @@
       ],
       "correct": {
         "index": 0,
-        "text": "En el mensaje del commit tambi\u00e9n se pone el mismo hastag, y con eso se pueden filtrar los commits asociados al <a href=\"https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Mensajes_de_resoluci.C3.B3n\">Proyecto de notas</a>."
+        "text": "En el mensaje del commit tambi\u00e9n se pone el mismo hastag, y con eso se pueden filtrar los commits asociados al <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Mensajes_de_resoluci.C3.B3n\">Proyecto de notas</a>."
       },
       "number": 14,
       "prompt": "En LatAm tenemos un comentario de resoluci\u00f3n que incluye el hashtag #ONL de OpenNotesLatam. \u00bfD\u00f3nde m\u00e1s se usa ese hashtag?"
@@ -162,7 +162,7 @@
       ],
       "correct": {
         "index": 0,
-        "text": "Se recomienda hacer <a href=\"https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Metodolog.C3.ADa\">commit por nota</a> adem\u00e1s de incluir el n\u00famero de la nota en el commit. Si es necesario reversar el cambio, solo afectar\u00e1 lo modificado por la nota."
+        "text": "Se recomienda hacer <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Metodolog.C3.ADa\">commit por nota</a> adem\u00e1s de incluir el n\u00famero de la nota en el commit. Si es necesario reversar el cambio, solo afectar\u00e1 lo modificado por la nota."
       },
       "number": 15,
       "prompt": "Cuando se resuelve una nota, \u00bfqu\u00e9 se debe poner en el mensaje del commit?"

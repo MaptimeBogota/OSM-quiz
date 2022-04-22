@@ -34,7 +34,7 @@
       ],
       "correct": {
         "index": 1,
-        "text": "El <a href=\"https://wiki.openstreetmap.org/wiki/API_v0.6#Map_Notes_API\">API de notas de OSM</a> se ha integrado en varias herramientas. En el <a href=\"https://www.openstreetmap.org/user/AngocA/diary/398995\">diario de AngocA se muestra un comparativo de varias aplicaciones que usan notas y sus funcionalidades</a>. Estas incluyen aplicaciones web, de escritorio y dispositivos m\u00f3viles."
+        "text": "El <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/API_v0.6#Map_Notes_API\">API de notas de OSM</a> se ha integrado en varias herramientas. En el <a target=\"_blank\" href=\"https://www.openstreetmap.org/user/AngocA/diary/398995\">diario de AngocA se muestra un comparativo de varias aplicaciones que usan notas y sus funcionalidades</a>. Estas incluyen aplicaciones web, de escritorio y dispositivos m\u00f3viles."
       },
       "number": 4,
       "prompt": "\u00bfCu\u00e1les aplicaciones usan notas?"
@@ -84,7 +84,7 @@
       ],
       "correct": {
         "index": 1,
-        "text": "Si quieres que los datos dejen de estar p\u00fablicos, lo mejor es que la \"denuncies\" y el <a href=\"https://wiki.openstreetmap.org/wiki/Data_working_group\">Data Working Group</a> har\u00e1 lo necesario para que no sea visible. En cambio, si la cierras, puede que no se vea en muchos mapas, pero seguir\u00e1n existiendo los datos en el archivo, el \"planet\"."
+        "text": "Si quieres que los datos dejen de estar p\u00fablicos, lo mejor es que la \"denuncies\" y el <a target=\"_blank\" href=\"https://wiki.openstreetmap.org/wiki/Data_working_group\">Data Working Group</a> har\u00e1 lo necesario para que no sea visible. En cambio, si la cierras, puede que no se vea en muchos mapas, pero seguir\u00e1n existiendo los datos en el archivo, el \"planet\"."
       },
       "number": 8,
       "prompt": "Si creaste una nota con datos que no quer\u00eda hacer p\u00fablicos, \u00bfQu\u00e9 puedes hacer?"
