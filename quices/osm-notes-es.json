@@ -88,6 +88,18 @@
       },
       "number": 8,
       "prompt": "Si creaste una nota con datos que no quer\u00eda hacer p\u00fablicos, \u00bfQu\u00e9 puedes hacer?"
+    },
+    {
+      "answers": [
+        "Si.",
+        "No."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Se puede crear una nota de forma an\u00f3nima, por lo que no es necesario tener cuenta en OSM."
+      },
+      "number": 9,
+      "prompt": "\u00bfEs necesario estar registrado en OSM para crear una nota?"
     }
   ],
   "title": "\u00bfSabes qu\u00e9 son las notas de OSM?",

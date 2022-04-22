@@ -1,28 +1,148 @@
-// Quiz sobre cómo resolver notas en Colombia.
+// Quiz sobre cómo resolver notas en LatAm.
 //
 // Author: Andres Gomez @angoca
-// Version: 2021-12-01
+// Version: 2022-04-21
 
 // Parent URL.
 url: https://maptimebogota.github.io/OSM-quiz/
 
 // Title of the quiz.
-# ¿Conoces bien el proceso de resolución de notas de OSM?
+# ¿Conoces bien el proceso de resolución de notas de OSM en LatAm?
 
-1) ¿En qué consiste el proceso de resolución de notas?
+
+1) ¿Qué es una nota de OpenStreetMap?
+
+  * Es una capa adicional que contiene un texto desciptivo.
+  - Es una etiqueta con nombre "note" añadida a una característica (way, node relation).
+
+  Las notas de OSM son objetos que contienen un texto describiendo una diferencia entre el mapa y la realidad. En cambio, una etiqueta note sobre un objeto, es solo una etiqueta más.
+
+
+2) ¿Cuáles son las acciones que se pueden realizar en una nota?
+
+  - Crear, aprobar, validar y cerrar.
+  * Crear, comentar (opcional), resolver, reabrir (opcional).
+  - Crear, resolcer (opcional), validar.
+
+  Las actividades son: Crear, comentar, cerrar (resolver), reabrir; donde comentar y reabrir son opcionales.
+
+
+3) Una nota que no se ha resuelto en varios años:
+
+  - Tiene información que no se ha validado aún. Es necesario ir al lugar y validar la nota antes de cerrarla.
+  * Contiene información vieja, y se debe mapear, aunque se duda de su validez.
+
+  Las notas viejas son un problema en OSM, ya que pueden contener cambios que no son válidos. Por eso, se debe procurar procesar las notas rápidamente, manteniendo una tasa baja e invitando a su creador a seguir haciendo aportes.
+
+
+4) ¿En qué consiste el proceso de resolución de notas?
 
   - Cerrar las notas que no indican nada.
-  * Traducir en una modificación en el mapa la observación descrita en la nota.
+  * Traducir la observación descrita en la nota en una modificación en el mapa.
   - Responder a la persona que creó la nota, indicándole si fue una buena nota.
 
-2) ¿Es necesario dejar un mensaje al resolver una nota?
+  Las notas normalmente son observaciones en terrenos que identifican una diferencia entre el mapa y la realidad. La nota indica esa diferencia para que el mapa se modifique reflejando la realidad.
+
+
+5) ¿Qué conocimientos es necesario tener para resolver notas?
+
+  - Ser experto en el tipo de "feature" a mapear.
+  * Conocimiento local de la ubicación de la nota.
+  - Haber realizado el curso de resolución de notas.
+
+  Muchas notas implican conocimiento local (por país, o inclusive ciudad) para entender bien el texto de la nota.
+
+
+6) ¿Es necesario dejar un mensaje al resolver una nota?
 
   - No es necesario, y es mejor conservar el anonimato.
-  * Se recomienda como mínimo poner el mensaje del proyecto.
-  - Se puede dejar un mensaje si se ve necesario.
+  * Se recomienda como mínimo poner el mensaje del proyecto de resolución de notas.
+  - Se puede dejar un mensaje si el contenido era ofensivo.
 
-Cómo se puede resolver una nota?
+  Se recomienda como mínimo dejar el <a href="https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Mensajes_de_resoluci.C3.B3n">mensaje por defecto del proyecto</a>. Esto promociona la actividad de cerrado de notas, además de ofrecer un punto de comunicación con el grupo que las resuelve. Inclusive, la persona se puede interesar en crear más notas o convertirse en contribuidor mapeando.
 
-Es necesario poder un mensaje al cerrar la nota
 
-Puedes denunciar notas que encuentres ofensivas o que atenten contra la privacidad
+7) ¿Se pueden denunciar notas ofensivas o que atenten contra la privacidad de alguna persona?
+
+  * Si.
+  - No.
+  - Lo mejor es cerrar immediatamente este tipo de notas.
+
+  Las notas que encuentres inapropiadas las puedes denunciar ante el <a href="https://wiki.openstreetmap.org/wiki/Data_working_group">Data Working Group</a>. Ellos harán lo necesario con respecto a la nota y dejará de ser pública.
+
+
+8) ¿El cerrado de notas es una iniciativa a nivel LatAm?
+
+  * Si, donde países como Colombia o Chile tienen controlado su cantidad de notas abiertas.
+  - No, cada comunidad es independiente.
+  - Las notas son una característica obsoleta de OSM.
+
+  Desde la <a href="https://wiki.openstreetmap.org/wiki/ES:LatAm/Eventos/20220129_Reuni%C3%B3n_virtual">primera junta Latam de 2022</a> se decidió que se iban a hacer eventos mensuales de resolución de notas, Notathon, para integrar la comunidad latinoamericana. Chile tiene sus notas bajo control desde hace tiempo, y Colombia es el segundo que se une a esto.
+
+
+9) ¿Cuál página web ofrece un análisis de notas por país?
+
+  - Página de OSM.
+  * Neis Pascal.
+  - MapComplete.
+
+  La <a href="https://resultmaps.neis-one.org/osm-notes">página de Pascal Neis</a> ofrece un comparativo de notas entre países, la tasa de notas abiertas frente a cerradas, un listado de las notas abiertas y las que han tenido recientes interacciones. Es la herramienta recomendada para cerrar notas.
+
+
+10) Si la nota está escrita en otro idioma, por ejemplo Francés, y está ubicada en Colombia, ¿Qué haces con la nota?
+
+  - Se cierra por no estar en el idioma del país.
+  * Traducirla con alguna herramienta.
+  - Reportarla por contenido errado.
+
+  Las notas que están en otro idioma las puedes traducir por medio de <a href="https://translate.google.com/?hl=es&sl=es&tl=en&op=translate">Google Translate</a>. Cuando la resuelvas puedes poner el mensaje del proyecto, y algo opcional en la lengua de la nota o en inglés.
+
+
+11) ¿Cómo se pueden resolver las notas de mi ciudad?
+
+  - No se pueden identificar, hay que procesar todas la lista de Neis Pascal.
+  * Visualizando las notas de tu ciudad por un editor, o inclusive usando un feed.
+
+  Si quieres resolver las notas de tu ciudad, puede activar la capa de notas de la aplicación que uses, y así las podrás identificar de acuerdo a su ubicación.
+
+
+12) ¿Cuál es la importancia de la página de Neis Pascal?
+
+  - Simplemente es una lista de notas por país.
+  * Esta página ofrece un análisis y listado de notas.
+  - Esa página no ofrece funcionalidad específica de notas.
+
+  Esta página muestra un <a href="https://resultmaps.neis-one.org/osm-notes">análisis de notas abiertas / cerradas por país</a>, más un listado de las notas de cada país organizado por id (fecha).
+
+
+13) Todas las notas aportan al mapa, y no se pueden cerrar sin hacer un cambio.
+
+  - Verdadero.
+  * Falso.
+
+  Muchas notas no ofrecen información para hacer un cambio al mapa. Pueden ser: observaciones personales, datos personales, problemas de dispositivo, publicidad, información repetida.
+
+
+14) En LatAm tenemos un comentario de resolución que incluye el hashtag #ONL de OpenNotesLatam. ¿Dónde más se usa ese hashtag?
+
+  * Como parte del commit.
+  - En los eventos de notas.
+  - En ningún otro lado.
+
+  En el mensaje del commit también se pone el mismo hastag, y con eso se pueden filtrar los commits asociados al <a href="https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Mensajes_de_resoluci.C3.B3n">Proyecto de notas</a>.
+
+15) Cuando se resuelve una nota, ¿qué se debe poner en el mensaje del commit?
+
+  * El número de la nota: "Nota 1234 #ONL".
+  - Si la nota fue buena o mala "Mala nota #ONL".
+  - Simplemente decir "Resolución de notas #ONL".
+
+  Se recomienda hacer <a href="https://wiki.openstreetmap.org/wiki/ES:LatAm/Proyectos/Resoluci%C3%B3n_de_notas#Metodolog.C3.ADa">commit por nota</a> además de incluir el número de la nota en el commit. Si es necesario reversar el cambio, solo afectará lo modificado por la nota.
+
+
+16) ¿Es obligatorio ir en terreno y revisar cada nota?
+
+  - Si.
+  * No.
+
+  Se debe creer en el contenido de la nota, por lo que no es necesario ir en terreno y revisar los datos.
