@@ -1,0 +1,95 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "Informaci\u00f3n de cualquier tipo, inclusive datos personales.",
+        "Detalles de la diferencia entre el mapa y la realidad.",
+        "Datos de la ubicaci\u00f3n, para llevar un control de los lugares visitados."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "El objetivo de las notas es describir una discrepancia entre el mapa y la realidad, para que otra persona haga los cambios necesarios en el mapa."
+      },
+      "number": 1,
+      "prompt": "\u00bfQu\u00e9 tipo de informaci\u00f3n se puede agregar a una nota?"
+    },
+    {
+      "answers": [
+        "Contribuidores al mapa experimentados, para describir bien la observaci\u00f3n en terreno.",
+        "Usuarios del mapa que no necesariamente contribuyen (dibujan) en OSM.",
+        "Usuarios novatos en OpenStreetMap para que vayan aprendiendo."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Las notas principalmente son para usuarios del mapa (m\u00e1s no contribuidores que dibujan). Ellos son los que no mapean, pero si usan los mapas y ven las incongruencias entre la realidad y lo mapeado."
+      },
+      "number": 3,
+      "prompt": "\u00bfQu\u00e9 tipo de usuario es el m\u00e1s apropiado para crear una nota?"
+    },
+    {
+      "answers": [
+        "Solo la p\u00e1gina principal de OSM.",
+        "Varias aplicaciones han integrado el API de notas, para crear o visualizar.",
+        "La p\u00e1gina de OSM, iD y JOSM."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "El <a href=\"https://wiki.openstreetmap.org/wiki/API_v0.6#Map_Notes_API\">API de notas de OSM</a> se ha integrado en varias herramientas. En el <a href=\"https://www.openstreetmap.org/user/AngocA/diary/398995\">diario de AngocA se muestra un comparativo de varias aplicaciones que usan notas y sus funcionalidades</a>. Estas incluyen aplicaciones web, de escritorio y dispositivos m\u00f3viles."
+      },
+      "number": 4,
+      "prompt": "\u00bfCu\u00e1les aplicaciones usan notas?"
+    },
+    {
+      "answers": [
+        "Si.",
+        "No."
+      ],
+      "correct": {
+        "index": 0,
+        "text": "Aplicaciones como StreetComplete ofrece la posibilidad de crear notas, inclusive a\u00f1adiendo fotos. Otras aplicaciones como Organic Maps, Osmand, LocusMap, Vespucci tambi\u00e9n permite crear notas con solo texto."
+      },
+      "number": 5,
+      "prompt": "\u00bfSe pueden crear en aplicaciones de celular?"
+    },
+    {
+      "answers": [
+        "Si.",
+        "No."
+      ],
+      "correct": {
+        "index": 0,
+        "text": "Cuando vayas a crear una nota, es muy importante que la ubiques lo m\u00e1s preciso en el mapa (mucho zoom). De esta forma cuando una persona vaya a mapear sabr\u00e1 exactamente d\u00f3nde es la diferencia. La persona que leer\u00e1 tu nota solo tendr\u00e1 la ubicaci\u00f3n y tu texto para hacer un cambio en el mapa."
+      },
+      "number": 6,
+      "prompt": "\u00bfLa ubicaci\u00f3n es importante para la nota?"
+    },
+    {
+      "answers": [
+        "Tendr\u00e1s que esperar varios a\u00f1os para que alguien la procese.",
+        "Puedes recibir comentarios para que des m\u00e1s detalles.",
+        "Las podr\u00e1s consultar en l\u00ednea, y as\u00ed sabr\u00e1s en d\u00f3nde estuviste."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "El objetivo de las notas es que se conviertan r\u00e1pidamente en cambios en el mapa. Si no describiste bien, puedes recibir comentarios para m\u00e1s indicaciones. Finalmente, cuando se procese la cerrar\u00e1n y te llegar\u00e1 una notificaci\u00f3n."
+      },
+      "number": 7,
+      "prompt": "\u00bfQu\u00e9 pasa despu\u00e9s de creada la nota?"
+    },
+    {
+      "answers": [
+        "Nada, las notas que se crean nunca se pueden borrar.",
+        "Denunciar la nota.",
+        "Cerrarla r\u00e1pidamente, y as\u00ed desaparecer\u00e1."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Si quieres que los datos dejen de estar p\u00fablicos, lo mejor es que la \"denuncies\" y el <a href=\"https://wiki.openstreetmap.org/wiki/Data_working_group\">Data Working Group</a> har\u00e1 lo necesario para que no sea visible. En cambio, si la cierras, puede que no se vea en muchos mapas, pero seguir\u00e1n existiendo los datos en el archivo, el \"planet\"."
+      },
+      "number": 8,
+      "prompt": "Si creaste una nota con datos que no quer\u00eda hacer p\u00fablicos, \u00bfQu\u00e9 puedes hacer?"
+    }
+  ],
+  "title": "\u00bfSabes qu\u00e9 son las notas de OSM?",
+  "url": "https://maptimebogota.github.io/OSM-quiz/"
+}

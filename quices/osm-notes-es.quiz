@@ -1,0 +1,79 @@
+// Quiz sobre cómo crear notas.
+//
+// Author: Andres Gomez @angoca
+// Version: 2022-04-21
+
+// Parent URL.
+url: https://maptimebogota.github.io/OSM-quiz/
+
+// Title of the quiz.
+# ¿Sabes qué son las notas de OSM?
+
+1) ¿Qué tipo de información se puede agregar a una nota?
+
+  - Información de cualquier tipo, inclusive datos personales.
+  * Detalles de la diferencia entre el mapa y la realidad.
+  - Datos de la ubicación, para llevar un control de los lugares visitados.
+
+  El objetivo de las notas es describir una discrepancia entre el mapa y la realidad, para que otra persona haga los cambios necesarios en el mapa.
+
+
+2) Las notas son:
+
+  * Públicas.
+  - Privadas.
+
+  Las notas son públicas, por lo que cualquier persona puede ver su contenido. Por ese se debes tener cuidado de la información que publicas ahí.
+
+
+3) ¿Qué tipo de usuario es el más apropiado para crear una nota?
+
+  - Contribuidores al mapa experimentados, para describir bien la observación en terreno.
+  * Usuarios del mapa que no necesariamente contribuyen (dibujan) en OSM.
+  - Usuarios novatos en OpenStreetMap para que vayan aprendiendo.
+
+  Las notas principalmente son para usuarios del mapa (más no contribuidores que dibujan). Ellos son los que no mapean, pero si usan los mapas y ven las incongruencias entre la realidad y lo mapeado.
+
+
+4) ¿Cuáles aplicaciones usan notas?
+
+  - Solo la página principal de OSM.
+  * Varias aplicaciones han integrado el API de notas, para crear o visualizar.
+  - La página de OSM, iD y JOSM.
+
+  El <a href="https://wiki.openstreetmap.org/wiki/API_v0.6#Map_Notes_API">API de notas de OSM</a> se ha integrado en varias herramientas. En el <a href="https://www.openstreetmap.org/user/AngocA/diary/398995">diario de AngocA se muestra un comparativo de varias aplicaciones que usan notas y sus funcionalidades</a>. Estas incluyen aplicaciones web, de escritorio y dispositivos móviles.
+
+
+5) ¿Se pueden crear en aplicaciones de celular?
+
+  * Si.
+  - No.
+
+  Aplicaciones como StreetComplete ofrece la posibilidad de crear notas, inclusive añadiendo fotos. Otras aplicaciones como Organic Maps, Osmand, LocusMap, Vespucci también permite crear notas con solo texto.
+
+
+6) ¿La ubicación es importante para la nota?
+
+  * Si.
+  - No.
+
+  Cuando vayas a crear una nota, es muy importante que la ubiques lo más preciso en el mapa (mucho zoom). De esta forma cuando una persona vaya a mapear sabrá exactamente dónde es la diferencia. La persona que leerá tu nota solo tendrá la ubicación y tu texto para hacer un cambio en el mapa.
+
+
+7) ¿Qué pasa después de creada la nota?
+
+  - Tendrás que esperar varios años para que alguien la procese.
+  * Puedes recibir comentarios para que des más detalles.
+  - Las podrás consultar en línea, y así sabrás en dónde estuviste.
+
+  El objetivo de las notas es que se conviertan rápidamente en cambios en el mapa. Si no describiste bien, puedes recibir comentarios para más indicaciones. Finalmente, cuando se procese la cerrarán y te llegará una notificación.
+
+
+8) Si creaste una nota con datos que no quería hacer públicos, ¿Qué puedes hacer?
+
+  - Nada, las notas que se crean nunca se pueden borrar.
+  * Denunciar la nota.
+  - Cerrarla rápidamente, y así desaparecerá.
+
+  Si quieres que los datos dejen de estar públicos, lo mejor es que la "denuncies" y el <a href="https://wiki.openstreetmap.org/wiki/Data_working_group">Data Working Group</a> hará lo necesario para que no sea visible. En cambio, si la cierras, puede que no se vea en muchos mapas, pero seguirán existiendo los datos en el archivo, el "planet".
+
