@@ -1,0 +1,156 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "El mismo de Wikipedia, Mediawiki.",
+        "Dokuwiki.",
+        "SharePoint."
+      ],
+      "correct": {
+        "index": 0,
+        "text": "El wiki de OSM usa el mismo software de Wikipedia, por lo que se puede usar la misma documentaci\u00f3n de Wikipedia para escribir art\u00edculos en OSM Wiki."
+      },
+      "number": 1,
+      "prompt": "\u00bfQu\u00e9 tipo de software usa el wiki de OSM?"
+    },
+    {
+      "answers": [
+        "Si.",
+        "No."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Son usuarios distintos, pero se recomienda que se creen ambos con un nombre similar."
+      },
+      "number": 2,
+      "prompt": "\u00bfEl usuario de OSM es el mismo del wiki de OSM?"
+    },
+    {
+      "answers": [
+        "HTML y WYSIWYG.",
+        "Visual y c\u00f3digo (wikitext).",
+        "R\u00e1pido y compilado."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Las dos formas para editar un art\u00edculo del wiki son Visual y C\u00f3digo. La visual es una edici\u00f3n muy cercana a como va a quedar y es por medio de VisualEditor. La de c\u00f3digo es por medio de las etiquetas del lenguaje markup: wikitext."
+      },
+      "number": 3,
+      "prompt": "Cuando se va a editar un art\u00edculo, \u00bfde qu\u00e9 formas se puede editar?"
+    },
+    {
+      "answers": [
+        "Permite saber qui\u00e9n contribuy\u00f3.",
+        "Describe los cambios que se hicieron.",
+        "Es una funcionalidad de Wikipedia que no aplica en el wiki de OSM."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Describir el conjunto de cambios es muy importante para el historial de cambios, y as\u00ed idenficiar f\u00e1cilmente qui\u00e9n hizo qu\u00e9."
+      },
+      "number": 4,
+      "prompt": "\u00bfPara qu\u00e9 sirve la descripci\u00f3n de los cambios al guardar?"
+    },
+    {
+      "answers": [
+        "Haciendo click en la estrella o modific\u00e1ndola.",
+        "Haciendo click en el bot\u00f3n subscribe.",
+        "Siguiendo el link de feed."
+      ],
+      "correct": {
+        "index": 0,
+        "text": "Hay dos formas de recibir notificaciones de cambios: cuando se hace click en la estrella azul. O cuando se modifica y se deja seleccionada la opci\u00f3n de notificaci\u00f3n de cambios."
+      },
+      "number": 5,
+      "prompt": "\u00bfC\u00f3mo puedo ser notificado de los cambios que se realicen a un art\u00edculo?"
+    },
+    {
+      "answers": [
+        "Si.",
+        "No."
+      ],
+      "correct": {
+        "index": 0,
+        "text": "El perfil de OSM se hace con Markdown y no tiene muchas opciones. El perfil del wiki te permite no solo usa todo el lenguaje de wikitext, sino usar plantillas UserBox para decorarlo."
+      },
+      "number": 6,
+      "prompt": "\u00bfTu perfil de OSM wiki es diferente al perfil de OSM?"
+    },
+    {
+      "answers": [
+        "Se crea un link entre la palabra que corresponde al nombre de la etiqueta.",
+        "Se usa el template Tag indicando el nombre y opcionalmente el valor.",
+        "Simplemente se escribe el nombre de la etiqueta entre comillas."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "La mejor manera es usando el Tag para que direccione autom\u00e1ticamente a la p\u00e1gina de la etiqueta."
+      },
+      "number": 7,
+      "prompt": "\u00bfC\u00f3mo se agregan tags de OSM como parte del texto?"
+    },
+    {
+      "answers": [
+        "Se env\u00eda la solicitud de traslado por medio de la etiqueta MoveThisPage.",
+        "En las opciones de p\u00e1gina, se hace click en trasladar. Se indica el nuevo nombre."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Las p\u00e1ginas se renombran con la opci\u00f3n trasladar. En esa p\u00e1gina se indica el nuevo nombre. Se puede dejar un comentario del movimiento, y se crean links del nombre viejo al nuevo."
+      },
+      "number": 8,
+      "prompt": "\u00bfC\u00f3mo se mueve una p\u00e1gina?"
+    },
+    {
+      "answers": [
+        "Si.",
+        "No."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Para los idiomas diferentes al ing\u00e9s, el namespace son el c\u00f3digo del idioma de 2 letras seguido de dos puntos. Para el ingl\u00e9s, este no tiene namespace. Otros namespaces son: User: Template:"
+      },
+      "number": 9,
+      "prompt": "\u00bfEN: es un namespace?"
+    },
+    {
+      "answers": [
+        "Si.",
+        "No."
+      ],
+      "correct": {
+        "index": 0,
+        "text": "Las migas de pan permiten tener un orden en la profundidad de las p\u00e1ginas y volver a las p\u00e1ginas padre m\u00e1s r\u00e1pidamente."
+      },
+      "number": 10,
+      "prompt": "\u00bfLos breadcrumbs permiten organizar p\u00e1ginas de una manera jer\u00e1rquica?"
+    },
+    {
+      "answers": [
+        "Usando la notaci\u00f3n arroba.",
+        "Escribiendo en la p\u00e1gina espacial User Talk:",
+        "No se puede, se usan los mensajes de OSM."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "El objetivo de la p\u00e1gina User Talk: es poder dejar mensajes a otras personas. Lo \u00fanico es que estos mensajes son de acceso p\u00fablico."
+      },
+      "number": 11,
+      "prompt": "\u00bfC\u00f3mo puedo enviar un mensaje a alguien en el Wiki?"
+    },
+    {
+      "answers": [
+        "Hacer click en reply.",
+        "Usar : para cada l\u00ednea y al final firmar."
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Se usan los : en cada l\u00ednea del mensaje de respuesta y firma con el atajo --~~~~."
+      },
+      "number": 12,
+      "prompt": "Cuando vas a responder en una discusi\u00f3n, \u00bfqu\u00e9 necesitas hacer?"
+    }
+  ],
+  "title": "\u00bfSabes documentar en el Wiki de OSM?",
+  "url": "https://maptimebogota.github.io/OSM-quiz/"
+}

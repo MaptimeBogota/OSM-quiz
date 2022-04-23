@@ -1,0 +1,112 @@
+// Quiz sobre el Wiki.
+//
+// Author: Andres Gomez @angoca
+// Version: 2022-04-22
+
+// Parent URL.
+url: https://maptimebogota.github.io/OSM-quiz/
+
+// Title of the quiz.
+# ¿Sabes documentar en el Wiki de OSM?
+
+1) ¿Qué tipo de software usa el wiki de OSM?
+
+  * El mismo de Wikipedia, Mediawiki.
+  - Dokuwiki.
+  - SharePoint.
+
+  El wiki de OSM usa el mismo software de Wikipedia, por lo que se puede usar la misma documentación de Wikipedia para escribir artículos en OSM Wiki.
+
+
+2) ¿El usuario de OSM es el mismo del wiki de OSM?
+
+  - Si.
+  * No.
+
+  Son usuarios distintos, pero se recomienda que se creen ambos con un nombre similar.
+
+
+3) Cuando se va a editar un artículo, ¿de qué formas se puede editar?
+
+  - HTML y WYSIWYG.
+  * Visual y código (wikitext).
+  - Rápido y compilado.
+
+  Las dos formas para editar un artículo del wiki son Visual y Código. La visual es una edición muy cercana a como va a quedar y es por medio de VisualEditor. La de código es por medio de las etiquetas del lenguaje markup: wikitext.
+
+
+4) ¿Para qué sirve la descripción de los cambios al guardar?
+
+  - Permite saber quién contribuyó.
+  * Describe los cambios que se hicieron.
+  - Es una funcionalidad de Wikipedia que no aplica en el wiki de OSM.
+
+  Describir el conjunto de cambios es muy importante para el historial de cambios, y así idenficiar fácilmente quién hizo qué.
+
+
+5) ¿Cómo puedo ser notificado de los cambios que se realicen a un artículo?
+
+  * Haciendo click en la estrella o modificándola.
+  - Haciendo click en el botón subscribe.
+  - Siguiendo el link de feed.
+
+  Hay dos formas de recibir notificaciones de cambios: cuando se hace click en la estrella azul. O cuando se modifica y se deja seleccionada la opción de notificación de cambios.
+
+
+6) ¿Tu perfil de OSM wiki es diferente al perfil de OSM?
+
+  * Si.
+  - No.
+
+  El perfil de OSM se hace con Markdown y no tiene muchas opciones. El perfil del wiki te permite no solo usa todo el lenguaje de wikitext, sino usar plantillas UserBox para decorarlo.
+
+
+7) ¿Cómo se agregan tags de OSM como parte del texto?
+
+  - Se crea un link entre la palabra que corresponde al nombre de la etiqueta.
+  * Se usa el template Tag indicando el nombre y opcionalmente el valor.
+  - Simplemente se escribe el nombre de la etiqueta entre comillas.
+
+  La mejor manera es usando el Tag para que direccione automáticamente a la página de la etiqueta.
+
+
+8) ¿Cómo se mueve una página?
+
+  - Se envía la solicitud de traslado por medio de la etiqueta MoveThisPage.
+  * En las opciones de página, se hace click en trasladar. Se indica el nuevo nombre.
+  
+  Las páginas se renombran con la opción trasladar. En esa página se indica el nuevo nombre. Se puede dejar un comentario del movimiento, y se crean links del nombre viejo al nuevo.
+
+
+9) ¿EN: es un namespace?
+
+  - Si.
+  * No.
+
+  Para los idiomas diferentes al ingés, el namespace son el código del idioma de 2 letras seguido de dos puntos. Para el inglés, este no tiene namespace. Otros namespaces son: User: Template:
+
+
+10) ¿Los breadcrumbs permiten organizar páginas de una manera jerárquica?
+
+  * Si.
+  - No.
+
+  Las migas de pan permiten tener un orden en la profundidad de las páginas y volver a las páginas padre más rápidamente.
+
+
+11) ¿Cómo puedo enviar un mensaje a alguien en el Wiki?
+
+  - Usando la notación arroba.
+  * Escribiendo en la página espacial User Talk:
+  - No se puede, se usan los mensajes de OSM.
+
+  El objetivo de la página User Talk: es poder dejar mensajes a otras personas. Lo único es que estos mensajes son de acceso público.
+
+
+12) Cuando vas a responder en una discusión, ¿qué necesitas hacer?
+
+  - Hacer click en reply.
+  * Usar : para cada línea y al final firmar.
+
+  Se usan los : en cada línea del mensaje de respuesta y firma con el atajo --~~~~.
+
